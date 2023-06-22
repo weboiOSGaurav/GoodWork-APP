@@ -1,0 +1,2536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C7DE65FA26E6E94797BFAE /* Pods_GoodWork_GoodWorkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1979ACBF42FA639257156F2 /* Pods_GoodWork_GoodWorkUITests.framework */; };
+		BA0B8E6829F691BB00BA91AC /* VerificationRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B8E6729F691BB00BA91AC /* VerificationRCVC.swift */; };
+		BA0B8E6A29F6953300BA91AC /* SignUpRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B8E6929F6953300BA91AC /* SignUpRCVC.swift */; };
+		BA0B8E6E29F6992700BA91AC /* TabBarRCVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B8E6D29F6992700BA91AC /* TabBarRCVCViewController.swift */; };
+		BA0B8E7129F69A7400BA91AC /* HomeRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B8E7029F69A7400BA91AC /* HomeRCVC.swift */; };
+		BA130B7A29D1584600496986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B7929D1584600496986 /* AppDelegate.swift */; };
+		BA130B7C29D1584600496986 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B7B29D1584600496986 /* SceneDelegate.swift */; };
+		BA130B7E29D1584600496986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B7D29D1584600496986 /* ViewController.swift */; };
+		BA130B8129D1584600496986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA130B7F29D1584600496986 /* Main.storyboard */; };
+		BA130B8429D1584600496986 /* GoodWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA130B8229D1584600496986 /* GoodWork.xcdatamodeld */; };
+		BA130B8629D1584900496986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA130B8529D1584900496986 /* Assets.xcassets */; };
+		BA130B8929D1584900496986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA130B8729D1584900496986 /* LaunchScreen.storyboard */; };
+		BA130B9429D1584900496986 /* GoodWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B9329D1584900496986 /* GoodWorkTests.swift */; };
+		BA130B9E29D1584900496986 /* GoodWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B9D29D1584900496986 /* GoodWorkUITests.swift */; };
+		BA130BA029D1584900496986 /* GoodWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130B9F29D1584900496986 /* GoodWorkUITestsLaunchTests.swift */; };
+		BA13F04929DD5B4E0024EA55 /* ExperienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13F04829DD5B4E0024EA55 /* ExperienceVC.swift */; };
+		BA13F04C29DD61DA0024EA55 /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13F04B29DD61DA0024EA55 /* EducationVC.swift */; };
+		BA14EB1D29F9347900CD5720 /* ScreeningRCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EB1B29F9347900CD5720 /* ScreeningRCTableViewCell.swift */; };
+		BA14EB1E29F9347900CD5720 /* ScreeningRCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA14EB1C29F9347900CD5720 /* ScreeningRCTableViewCell.xib */; };
+		BA14EB2029F9354600CD5720 /* ScreeningRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EB1F29F9354600CD5720 /* ScreeningRCVC.swift */; };
+		BA14EB2329F9424C00CD5720 /* NurseDetailsRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EB2229F9424C00CD5720 /* NurseDetailsRCVC.swift */; };
+		BA166E8429EAAF2B0087842E /* AppliedJobDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA166E8329EAAF2B0087842E /* AppliedJobDetailsVC.swift */; };
+		BA19F67F29F290C7000B09B0 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19F67D29F290C7000B09B0 /* TagCollectionViewCell.swift */; };
+		BA19F68029F290C7000B09B0 /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA19F67E29F290C7000B09B0 /* TagCollectionViewCell.xib */; };
+		BA19F68229F2915D000B09B0 /* TagFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19F68129F2915D000B09B0 /* TagFlowLayout.swift */; };
+		BA263FF32A431C1000EE6F44 /* PublishedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA263FF12A431C0F00EE6F44 /* PublishedList.swift */; };
+		BA263FF42A431C1000EE6F44 /* PublishedListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA263FF22A431C0F00EE6F44 /* PublishedListData.swift */; };
+		BA2D6F7829DAB51E00EF404A /* AppliedJobAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6F7729DAB51E00EF404A /* AppliedJobAlertVC.swift */; };
+		BA2E51F729D2CF3900806764 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E51F629D2CF3900806764 /* BaseVC.swift */; };
+		BA2E51F929D2D52000806764 /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E51F829D2D52000806764 /* VerificationVC.swift */; };
+		BA3393BE29F79AFA00D14761 /* HelpAndSupportRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3393BD29F79AFA00D14761 /* HelpAndSupportRCVC.swift */; };
+		BA3393C129F7A74300D14761 /* SearchRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3393C029F7A74300D14761 /* SearchRCVC.swift */; };
+		BA3393C529F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3393C329F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.swift */; };
+		BA3393C629F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3393C429F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.xib */; };
+		BA3E693129D169800013816A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E693029D1697B0013816A /* AppConstants.swift */; };
+		BA3E693629D16A3C0013816A /* Extantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E693529D16A3C0013816A /* Extantion.swift */; };
+		BA3E693B29D16A630013816A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E693A29D16A630013816A /* Constant.swift */; };
+		BA3E693D29D16A6C0013816A /* ConstantString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E693C29D16A6B0013816A /* ConstantString.swift */; };
+		BA3E694029D16B1C0013816A /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E693F29D16B1C0013816A /* Design.swift */; };
+		BA3E694329D16B8C0013816A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E694229D16B8C0013816A /* LoginVC.swift */; };
+		BA3E694529D16FAC0013816A /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E694429D16FAC0013816A /* OnboardingVC.swift */; };
+		BA4531F529DAD3010048AD2C /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4531F029DAD3010048AD2C /* Quicksand-Regular.ttf */; };
+		BA4531F629DAD3010048AD2C /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4531F129DAD3010048AD2C /* Quicksand-SemiBold.ttf */; };
+		BA4531F729DAD3010048AD2C /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4531F229DAD3010048AD2C /* Quicksand-Bold.ttf */; };
+		BA4531F829DAD3010048AD2C /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4531F329DAD3010048AD2C /* Quicksand-Light.ttf */; };
+		BA4531F929DAD3010048AD2C /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4531F429DAD3010048AD2C /* Quicksand-Medium.ttf */; };
+		BA4531FC29DADCD60048AD2C /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4531FA29DADCD60048AD2C /* ProfileInfoTableViewCell.swift */; };
+		BA4531FD29DADCD60048AD2C /* ProfileInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4531FB29DADCD60048AD2C /* ProfileInfoTableViewCell.xib */; };
+		BA45320029DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4531FE29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.swift */; };
+		BA45320129DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4531FF29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.xib */; };
+		BA45320429DAEB510048AD2C /* PersonalInfomationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45320329DAEB510048AD2C /* PersonalInfomationVC.swift */; };
+		BA4667CD29D6F20300CAC442 /* ApplyJobWithoutProfileUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4667CC29D6F20300CAC442 /* ApplyJobWithoutProfileUpdateVC.swift */; };
+		BA4667CF29D6FC9400CAC442 /* ApplyJobWithProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4667CE29D6FC9300CAC442 /* ApplyJobWithProfileVC.swift */; };
+		BA47977C29ED0041000B3BF7 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47977B29ED0041000B3BF7 /* ChatVC.swift */; };
+		BA47978029ED08D3000B3BF7 /* LoginUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47977E29ED08D3000B3BF7 /* LoginUserTableViewCell.swift */; };
+		BA47978129ED08D3000B3BF7 /* LoginUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA47977F29ED08D3000B3BF7 /* LoginUserTableViewCell.xib */; };
+		BA4973D629FA8F9E00FEACEC /* CreatedJobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4973D429FA8F9E00FEACEC /* CreatedJobTableViewCell.swift */; };
+		BA4973D729FA8F9E00FEACEC /* CreatedJobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4973D529FA8F9E00FEACEC /* CreatedJobTableViewCell.xib */; };
+		BA4AF81C29F68AD30047074A /* LoginRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AF81B29F68AD30047074A /* LoginRCVC.swift */; };
+		BA4BDADB29F175C900B9C54F /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BDADA29F175C900B9C54F /* FilterVC.swift */; };
+		BA4C5DCA29DABF2400485838 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C5DC929DABF2400485838 /* MyProfileVC.swift */; };
+		BA4CC71C29D2F29900C3CD47 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4CC71B29D2F29900C3CD47 /* Poppins-SemiBold.ttf */; };
+		BA4D06002A271ADD00217DCD /* MyHiredJobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D05FE2A271ADC00217DCD /* MyHiredJobsData.swift */; };
+		BA4D06012A271ADD00217DCD /* MyHiredJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D05FF2A271ADC00217DCD /* MyHiredJobs.swift */; };
+		BA4D06052A272CEC00217DCD /* PastJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D06032A272CEC00217DCD /* PastJobs.swift */; };
+		BA4D06062A272CEC00217DCD /* PastJobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D06042A272CEC00217DCD /* PastJobsData.swift */; };
+		BA4D0BD72A444C0D004256E2 /* PopularJobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D0BD52A444C0D004256E2 /* PopularJobTableViewCell.swift */; };
+		BA4D0BD82A444C0D004256E2 /* PopularJobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4D0BD62A444C0D004256E2 /* PopularJobTableViewCell.xib */; };
+		BA4D0BDA2A44770D004256E2 /* WorkDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D0BD92A44770D004256E2 /* WorkDetailsVC.swift */; };
+		BA4DA71529D3FDD3000A061D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DA71429D3FDD3000A061D /* HomeVC.swift */; };
+		BA4E254B29FC149A008CF71A /* CertListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E254929FC149A008CF71A /* CertListTableViewCell.swift */; };
+		BA4E254C29FC149A008CF71A /* CertListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4E254A29FC149A008CF71A /* CertListTableViewCell.xib */; };
+		BA4E98CD2A0CD42500875075 /* MyAppliedJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E98CA2A0CD42400875075 /* MyAppliedJobList.swift */; };
+		BA4E98CE2A0CD42500875075 /* MyAppliedPopularJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E98CB2A0CD42400875075 /* MyAppliedPopularJob.swift */; };
+		BA4E98CF2A0CD42500875075 /* MyAppliedJobData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E98CC2A0CD42500875075 /* MyAppliedJobData.swift */; };
+		BA4EC7F52A3C7BEF002921C7 /* HomeNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EC7F42A3C7BEE002921C7 /* HomeNotification.swift */; };
+		BA4EC7F92A3CA0CD002921C7 /* ApplicantTypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EC7F72A3CA0CC002921C7 /* ApplicantTypeData.swift */; };
+		BA4EC7FA2A3CA0CD002921C7 /* ApplicantTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EC7F82A3CA0CC002921C7 /* ApplicantTypeList.swift */; };
+		BA4F41FE29F783E600EA87A4 /* AboutUSRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F41FD29F783E600EA87A4 /* AboutUSRCVC.swift */; };
+		BA4F420129F7841A00EA87A4 /* PrivacyPolicyRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F420029F7841A00EA87A4 /* PrivacyPolicyRCVC.swift */; };
+		BA4FE8EE29F6B03B00E5C225 /* JobTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4FE8EC29F6B03B00E5C225 /* JobTypeCollectionViewCell.swift */; };
+		BA4FE8EF29F6B03B00E5C225 /* JobTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4FE8ED29F6B03B00E5C225 /* JobTypeCollectionViewCell.xib */; };
+		BA5035F729D2B9F500B496CB /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA5035F629D2B9F500B496CB /* Poppins-Regular.ttf */; };
+		BA50EB2D29F94BAA00E0CFFD /* SubmittedRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50EB2C29F94BAA00E0CFFD /* SubmittedRCVC.swift */; };
+		BA50EB3029F954AB00E0CFFD /* MoveToSubmitRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50EB2F29F954AB00E0CFFD /* MoveToSubmitRCVC.swift */; };
+		BA54425D29E8015F00AF2747 /* BookMarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54425C29E8015F00AF2747 /* BookMarkVC.swift */; };
+		BA5488292A3AE36400B7C945 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5488272A3AE36300B7C945 /* AboutMe.swift */; };
+		BA54882A2A3AE36400B7C945 /* AboutMeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5488282A3AE36300B7C945 /* AboutMeData.swift */; };
+		BA54882D2A3AED0100B7C945 /* Employers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54882C2A3AED0000B7C945 /* Employers.swift */; };
+		BA55E1442A04ED86000DD724 /* JobDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55E1422A04ED86000DD724 /* JobDetailsData.swift */; };
+		BA55E1452A04ED86000DD724 /* JobDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55E1432A04ED86000DD724 /* JobDetails.swift */; };
+		BA566B902A3B2AAC00C6FFC6 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA566B8E2A3B2AAC00C6FFC6 /* NotificationTableViewCell.swift */; };
+		BA566B912A3B2AAC00C6FFC6 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA566B8F2A3B2AAC00C6FFC6 /* NotificationTableViewCell.xib */; };
+		BA5766892A149FDC00BA5770 /* LatestNotiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5766872A149FDC00BA5770 /* LatestNotiesTableViewCell.swift */; };
+		BA57668A2A149FDC00BA5770 /* LatestNotiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5766882A149FDC00BA5770 /* LatestNotiesTableViewCell.xib */; };
+		BA57668C2A14A9D400BA5770 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA57668B2A14A9D400BA5770 /* DMSans-Regular.ttf */; };
+		BA57668E2A14B9DE00BA5770 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA57668D2A14B9DD00BA5770 /* DMSans-Medium.ttf */; };
+		BA5792D729E7DC300028F181 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5792D629E7DC300028F181 /* ExploreVC.swift */; };
+		BA59CE762A375D8400E068BB /* SubjectTypesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59CE742A375D8400E068BB /* SubjectTypesList.swift */; };
+		BA59CE772A375D8400E068BB /* SubjectTypesListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59CE752A375D8400E068BB /* SubjectTypesListData.swift */; };
+		BA5C9D5A29FA7B0E00D769CF /* CreatingJobPostRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9D5929FA7B0E00D769CF /* CreatingJobPostRCVC.swift */; };
+		BA5E43D829F6CE6D0005295E /* ProfileRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E43D729F6CE6D0005295E /* ProfileRCVC.swift */; };
+		BA5E43DB29F6D5F30005295E /* EmployersRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E43DA29F6D5F30005295E /* EmployersRCVC.swift */; };
+		BA5E43DE29F6DE430005295E /* AccountInfoRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E43DD29F6DE430005295E /* AccountInfoRCVC.swift */; };
+		BA5EE1DE2A092A1700FB6787 /* LicenseStatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5EE1DC2A092A1600FB6787 /* LicenseStatusData.swift */; };
+		BA5EE1DF2A092A1700FB6787 /* LicenseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5EE1DD2A092A1600FB6787 /* LicenseStatus.swift */; };
+		BA608B5B2A0E2A3800B9BC71 /* AboutMeRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA608B5A2A0E2A3800B9BC71 /* AboutMeRCVC.swift */; };
+		BA613FB12A1E1233006EE9E8 /* Data11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613FAD2A1E122D006EE9E8 /* Data11.swift */; };
+		BA613FB22A1E1233006EE9E8 /* Role_interest11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613FAE2A1E122E006EE9E8 /* Role_interest11.swift */; };
+		BA613FB32A1E1233006EE9E8 /* Json4Swift_Base11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613FAF2A1E1231006EE9E8 /* Json4Swift_Base11.swift */; };
+		BA613FB42A1E1233006EE9E8 /* Specialty11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613FB02A1E1232006EE9E8 /* Specialty11.swift */; };
+		BA625B1029FBCD1400F05B0E /* NuseDetailsRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA625B0F29FBCD1400F05B0E /* NuseDetailsRCVC.swift */; };
+		BA625B1229FBCD6100F05B0E /* CertificationRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA625B1129FBCD6100F05B0E /* CertificationRCVC.swift */; };
+		BA625B1629FBCF2700F05B0E /* CertificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA625B1429FBCF2700F05B0E /* CertificationTableViewCell.swift */; };
+		BA625B1729FBCF2700F05B0E /* CertificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA625B1529FBCF2700F05B0E /* CertificationTableViewCell.xib */; };
+		BA636B6429D5659B001E6A94 /* PopularJobsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA636B6229D5659A001E6A94 /* PopularJobsCollectionCell.swift */; };
+		BA636B6529D5659B001E6A94 /* PopularJobsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA636B6329D5659A001E6A94 /* PopularJobsCollectionCell.xib */; };
+		BA636B6729D574CA001E6A94 /* NeueKabel-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA636B6629D574CA001E6A94 /* NeueKabel-Italic.ttf */; };
+		BA63CE9C29F8F33A007AC136 /* ApplicationDetailsRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63CE9B29F8F33A007AC136 /* ApplicationDetailsRCVC.swift */; };
+		BA63CEA029F9023D007AC136 /* JobAppliedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63CE9E29F9023D007AC136 /* JobAppliedTableViewCell.swift */; };
+		BA63CEA129F9023D007AC136 /* JobAppliedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA63CE9F29F9023D007AC136 /* JobAppliedTableViewCell.xib */; };
+		BA6676592A09102700732DCD /* LicenseTypesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6676572A09102600732DCD /* LicenseTypesData.swift */; };
+		BA66765A2A09102700732DCD /* LicenseTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6676582A09102600732DCD /* LicenseTypes.swift */; };
+		BA66E14829FA2F7500AB4E7F /* OnBoardingRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E14729FA2F7500AB4E7F /* OnBoardingRCVC.swift */; };
+		BA66E14B29FA336B00AB4E7F /* OnboardingEmployeesRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E14A29FA336B00AB4E7F /* OnboardingEmployeesRCVC.swift */; };
+		BA66E14E29FA384300AB4E7F /* WorkingRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E14D29FA384300AB4E7F /* WorkingRCVC.swift */; };
+		BA66E15129FA38FC00AB4E7F /* WorkingEmployeesRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E15029FA38FC00AB4E7F /* WorkingEmployeesRCVC.swift */; };
+		BA66E15429FA436900AB4E7F /* MoveToDoneRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E15329FA436900AB4E7F /* MoveToDoneRCVC.swift */; };
+		BA66E15729FA446500AB4E7F /* DoneEmployeesRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E15629FA446500AB4E7F /* DoneEmployeesRCVC.swift */; };
+		BA66E15A29FA5AD800AB4E7F /* RejectedRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66E15929FA5AD800AB4E7F /* RejectedRCVC.swift */; };
+		BA6BF91E29ED48F4008B2112 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BF91C29ED48F4008B2112 /* UserTableViewCell.swift */; };
+		BA6BF91F29ED48F4008B2112 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6BF91D29ED48F4008B2112 /* UserTableViewCell.xib */; };
+		BA6C23A52A1CD1CF000D4A8B /* AccountInfoDataRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C23A32A1CD1CF000D4A8B /* AccountInfoDataRC.swift */; };
+		BA6C23A62A1CD1CF000D4A8B /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C23A42A1CD1CF000D4A8B /* AccountInfo.swift */; };
+		BA6D959D29DD7D310092F8A0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D959C29DD7D310092F8A0 /* SettingsVC.swift */; };
+		BA6D95A029DD7ECF0092F8A0 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D959E29DD7ECF0092F8A0 /* SettingsTableViewCell.swift */; };
+		BA6D95A129DD7ECF0092F8A0 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6D959F29DD7ECF0092F8A0 /* SettingsTableViewCell.xib */; };
+		BA6D95A429DD88460092F8A0 /* PrivacyPoliciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D95A329DD88460092F8A0 /* PrivacyPoliciesVC.swift */; };
+		BA6D95A629DD8EB10092F8A0 /* AboutUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D95A529DD8EB10092F8A0 /* AboutUS.swift */; };
+		BA6D95A929DD8FD30092F8A0 /* AccountInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D95A829DD8FD30092F8A0 /* AccountInfoVC.swift */; };
+		BA702E732A0E70070000A324 /* ApplicationAdvanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA702E712A0E70070000A324 /* ApplicationAdvanceTableViewCell.swift */; };
+		BA702E742A0E70070000A324 /* ApplicationAdvanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA702E722A0E70070000A324 /* ApplicationAdvanceTableViewCell.xib */; };
+		BA7607982A1C7BE5001158E6 /* MySavedJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7607952A1C7BE5001158E6 /* MySavedJobList.swift */; };
+		BA7607992A1C7BE5001158E6 /* MySavedList_jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7607962A1C7BE5001158E6 /* MySavedList_jobs.swift */; };
+		BA76079A2A1C7BE5001158E6 /* MySavedJobListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7607972A1C7BE5001158E6 /* MySavedJobListData.swift */; };
+		BA772FD02A0BA36B00EC3BE3 /* BrowseJobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA772FCD2A0BA36B00EC3BE3 /* BrowseJobsData.swift */; };
+		BA772FD12A0BA36B00EC3BE3 /* BrowseJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA772FCE2A0BA36B00EC3BE3 /* BrowseJobs.swift */; };
+		BA772FD22A0BA36B00EC3BE3 /* BrowsePopular_jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA772FCF2A0BA36B00EC3BE3 /* BrowsePopular_jobs.swift */; };
+		BA7771E029FAA2A40087B65A /* CreatJobRequestRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7771DF29FAA2A40087B65A /* CreatJobRequestRCVC.swift */; };
+		BA7771E229FAB18B0087B65A /* EditCreatJobRequestRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7771E129FAB18B0087B65A /* EditCreatJobRequestRCVC.swift */; };
+		BA78C13B2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78C1392A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.swift */; };
+		BA78C13C2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA78C13A2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.xib */; };
+		BA7D953E29DD46E000BCD189 /* LicensesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D953D29DD46E000BCD189 /* LicensesVC.swift */; };
+		BA7D954229DD53AF00BCD189 /* CertificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D954129DD53AF00BCD189 /* CertificationVC.swift */; };
+		BA7FA31529EBC01A00B339B6 /* messageListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA31329EBC01A00B339B6 /* messageListTableViewCell.swift */; };
+		BA7FA31629EBC01A00B339B6 /* messageListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7FA31429EBC01A00B339B6 /* messageListTableViewCell.xib */; };
+		BA84DBCE2A12069900A73D3C /* UpdateJobStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA84DBCD2A12069900A73D3C /* UpdateJobStatusViewController.swift */; };
+		BA86AF3F29F96FBF0044873E /* MoveToOfferedRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA86AF3E29F96FBF0044873E /* MoveToOfferedRCVC.swift */; };
+		BA86AF4229F9791E0044873E /* OfferedEmployeesRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA86AF4129F9791D0044873E /* OfferedEmployeesRCVC.swift */; };
+		BA90A20429D2C10C002E6A22 /* NeueKabel-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA90A20329D2C10C002E6A22 /* NeueKabel-Medium.ttf */; };
+		BA90A20629D2C1D8002E6A22 /* NeueKabel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA90A20529D2C1D8002E6A22 /* NeueKabel-Bold.ttf */; };
+		BA920CE02A0A14AF00F82CA3 /* CertificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA920CDE2A0A14AF00F82CA3 /* CertificationData.swift */; };
+		BA920CE12A0A14AF00F82CA3 /* Certification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA920CDF2A0A14AF00F82CA3 /* Certification.swift */; };
+		BA96FD332A3B1FFA00AEC7D6 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96FD322A3B1FFA00AEC7D6 /* NotificationsVC.swift */; };
+		BA9C2EE729E5677700BA3B0C /* HelpAndSupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9C2EE629E5677700BA3B0C /* HelpAndSupportVC.swift */; };
+		BAA27CDE29D1D20200A80210 /* NeueKabel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA27CDD29D1D20200A80210 /* NeueKabel.ttf */; };
+		BAA5D05929F8083000BC922D /* MessageRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA5D05829F8083000BC922D /* MessageRCVC.swift */; };
+		BAA5D05B29F808F700BC922D /* ChatRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA5D05A29F808F700BC922D /* ChatRCVC.swift */; };
+		BAA64F5E2A0B7734007F632B /* NurseSpecialitiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F5C2A0B7733007F632B /* NurseSpecialitiesData.swift */; };
+		BAA64F5F2A0B7734007F632B /* NurseSpecialities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F5D2A0B7733007F632B /* NurseSpecialities.swift */; };
+		BAA64F642A0B7CC9007F632B /* NurseWorkLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F622A0B7CC9007F632B /* NurseWorkLocation.swift */; };
+		BAA64F652A0B7CC9007F632B /* NurseLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F632A0B7CC9007F632B /* NurseLocationData.swift */; };
+		BAA64F692A0B86A9007F632B /* NurseJobTypesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F672A0B86A8007F632B /* NurseJobTypesData.swift */; };
+		BAA64F6A2A0B86A9007F632B /* NurseJobTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F682A0B86A8007F632B /* NurseJobTypes.swift */; };
+		BAA64F6E2A0B8BFE007F632B /* NurseShifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F6C2A0B8BFE007F632B /* NurseShifts.swift */; };
+		BAA64F6F2A0B8BFE007F632B /* NurseShiftsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA64F6D2A0B8BFE007F632B /* NurseShiftsData.swift */; };
+		BAA6FEDB2A4427D200211A32 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6FEDA2A4427D200211A32 /* Demo.swift */; };
+		BAAD4D812A0D29F90014A48A /* NurseProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D7B2A0D29F60014A48A /* NurseProfile.swift */; };
+		BAAD4D822A0D29F90014A48A /* NurseProfiCertitficate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D7C2A0D29F60014A48A /* NurseProfiCertitficate.swift */; };
+		BAAD4D832A0D29F90014A48A /* NurseProfiExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D7D2A0D29F70014A48A /* NurseProfiExperience.swift */; };
+		BAAD4D842A0D29F90014A48A /* NurseProfiRoleinte.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D7E2A0D29F70014A48A /* NurseProfiRoleinte.swift */; };
+		BAAD4D852A0D29F90014A48A /* NurseProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D7F2A0D29F80014A48A /* NurseProfileData.swift */; };
+		BAAD4D862A0D29F90014A48A /* NurseProfileSpecialty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4D802A0D29F80014A48A /* NurseProfileSpecialty.swift */; };
+		BAAE113F29F7DE5F00797857 /* NewApplicationsRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE113E29F7DE5F00797857 /* NewApplicationsRCVC.swift */; };
+		BAAE114329F7E0F300797857 /* NewApplicationChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE114129F7E0F300797857 /* NewApplicationChatTableViewCell.swift */; };
+		BAAE114429F7E0F300797857 /* NewApplicationChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAE114229F7E0F300797857 /* NewApplicationChatTableViewCell.xib */; };
+		BAAECF8529FB859C00C8ABDC /* EditJobRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECF8429FB859C00C8ABDC /* EditJobRCVC.swift */; };
+		BAAECF8829FB897D00C8ABDC /* HoldAndPublishedRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECF8729FB897D00C8ABDC /* HoldAndPublishedRCVC.swift */; };
+		BAAECF8B29FBAA6500C8ABDC /* NurseAppliedListRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECF8A29FBAA6500C8ABDC /* NurseAppliedListRCVC.swift */; };
+		BAB1709D2A3730B800D98C4E /* Recommended_jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1709C2A3730B800D98C4E /* Recommended_jobs.swift */; };
+		BAB1709F2A3730C900D98C4E /* Recently_added.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1709E2A3730C800D98C4E /* Recently_added.swift */; };
+		BAB322162A0A2FBA00AABF95 /* ExperienceTypeList Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB322142A0A2FB900AABF95 /* ExperienceTypeList Data.swift */; };
+		BAB322172A0A2FBA00AABF95 /* ExperienceTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB322152A0A2FB900AABF95 /* ExperienceTypeList.swift */; };
+		BABA532429D59B9F004555F0 /* RecommendedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA532229D59B9E004555F0 /* RecommendedTableViewCell.swift */; };
+		BABA532529D59B9F004555F0 /* RecommendedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABA532329D59B9E004555F0 /* RecommendedTableViewCell.xib */; };
+		BABA532729D5AAFB004555F0 /* NeueKabelMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BABA532629D5AAFB004555F0 /* NeueKabelMediumItalic.ttf */; };
+		BABA532A29D5AD6F004555F0 /* JobDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA532929D5AD6F004555F0 /* JobDetailsVC.swift */; };
+		BABD91632A1B5A8D00F91B9F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD91602A1B5A8800F91B9F /* Data.swift */; };
+		BABD91642A1B5A8D00F91B9F /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD91612A1B5A8800F91B9F /* Json4Swift_Base.swift */; };
+		BABD91652A1B5A8D00F91B9F /* Popular_jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD91622A1B5A8C00F91B9F /* Popular_jobs.swift */; };
+		BAC0E45629DD314B00E8379C /* ResumeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0E45529DD314B00E8379C /* ResumeVC.swift */; };
+		BAC49D842A31A08200EEE766 /* PopularJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC49D822A31A08200EEE766 /* PopularJobList.swift */; };
+		BAC49D852A31A08200EEE766 /* PopularJobListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC49D832A31A08200EEE766 /* PopularJobListData.swift */; };
+		BAC625442A39913C0027B1C9 /* AssignmentDurationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC625422A39913C0027B1C9 /* AssignmentDurationData.swift */; };
+		BAC625452A39913C0027B1C9 /* AssignmentDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC625432A39913C0027B1C9 /* AssignmentDuration.swift */; };
+		BAC7BC252A177DE200D1501A /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7BC1E2A177DE000D1501A /* DateValueFormatter.swift */; };
+		BAC7BC262A177DE200D1501A /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7BC1F2A177DE100D1501A /* DemoBaseViewController.swift */; };
+		BAC7BC292A177DE200D1501A /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7BC222A177DE100D1501A /* DayAxisValueFormatter.swift */; };
+		BAD3609B2A39E7E9004256A1 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD360992A39E7E9004256A1 /* HomeData.swift */; };
+		BAD3609C2A39E7EA004256A1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD3609A2A39E7E9004256A1 /* Home.swift */; };
+		BAD51D2929D4045C000A4845 /* TabBarCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD51D2829D4045C000A4845 /* TabBarCV.swift */; };
+		BAD51D3129D41158000A4845 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD51D3029D41158000A4845 /* SearchVC.swift */; };
+		BAD51D3529D41182000A4845 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD51D3429D41182000A4845 /* MessageVC.swift */; };
+		BAD521F72A42DAEF00C8F717 /* DraftApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD521F52A42DAEE00C8F717 /* DraftApplicationData.swift */; };
+		BAD521F82A42DAEF00C8F717 /* DraftApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD521F62A42DAEE00C8F717 /* DraftApplication.swift */; };
+		BADDB6B229D3079F0031A063 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADDB6B129D3079F0031A063 /* SignUpVC.swift */; };
+		BAE7C1D729FBE4B400E58701 /* FullDetailsNurseRCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C1D629FBE4B400E58701 /* FullDetailsNurseRCVC.swift */; };
+		BAF5790629F6892B0045D018 /* RecruitersStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF5790529F6892B0045D018 /* RecruitersStoryboard.storyboard */; };
+		BAF9A44629F1450C0069C0CE /* LogInDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9A44529F1450B0069C0CE /* LogInDataModel.swift */; };
+		BAF9A44829F145230069C0CE /* APIDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9A44729F145230069C0CE /* APIDataHandler.swift */; };
+		D3B3AF5D3AF8F256838461DF /* Pods_GoodWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09106ED1FD17221F4D4F15CC /* Pods_GoodWorkTests.framework */; };
+		EC8F75A59CE8F663F73FD725 /* Pods_GoodWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55FC68DDA76309BFEB0DE7B /* Pods_GoodWork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA130B9029D1584900496986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA130B6E29D1584600496986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA130B7529D1584600496986;
+			remoteInfo = GoodWork;
+		};
+		BA130B9A29D1584900496986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA130B6E29D1584600496986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA130B7529D1584600496986;
+			remoteInfo = GoodWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09106ED1FD17221F4D4F15CC /* Pods_GoodWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B23FE3FD21885C3E7EA56A /* Pods-GoodWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWorkTests.debug.xcconfig"; path = "Target Support Files/Pods-GoodWorkTests/Pods-GoodWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92EBD5895B8FD15376F7B003 /* Pods-GoodWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWorkTests.release.xcconfig"; path = "Target Support Files/Pods-GoodWorkTests/Pods-GoodWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		A55FC68DDA76309BFEB0DE7B /* Pods_GoodWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0B8E6729F691BB00BA91AC /* VerificationRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationRCVC.swift; sourceTree = "<group>"; };
+		BA0B8E6929F6953300BA91AC /* SignUpRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRCVC.swift; sourceTree = "<group>"; };
+		BA0B8E6D29F6992700BA91AC /* TabBarRCVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRCVCViewController.swift; sourceTree = "<group>"; };
+		BA0B8E7029F69A7400BA91AC /* HomeRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRCVC.swift; sourceTree = "<group>"; };
+		BA130B7629D1584600496986 /* GoodWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA130B7929D1584600496986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA130B7B29D1584600496986 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA130B7D29D1584600496986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA130B8029D1584600496986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA130B8329D1584600496986 /* GoodWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodWork.xcdatamodel; sourceTree = "<group>"; };
+		BA130B8529D1584900496986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA130B8829D1584900496986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA130B8A29D1584900496986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA130B8F29D1584900496986 /* GoodWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA130B9329D1584900496986 /* GoodWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWorkTests.swift; sourceTree = "<group>"; };
+		BA130B9929D1584900496986 /* GoodWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA130B9D29D1584900496986 /* GoodWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWorkUITests.swift; sourceTree = "<group>"; };
+		BA130B9F29D1584900496986 /* GoodWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA13F04829DD5B4E0024EA55 /* ExperienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceVC.swift; sourceTree = "<group>"; };
+		BA13F04B29DD61DA0024EA55 /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
+		BA14EB1B29F9347900CD5720 /* ScreeningRCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningRCTableViewCell.swift; sourceTree = "<group>"; };
+		BA14EB1C29F9347900CD5720 /* ScreeningRCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreeningRCTableViewCell.xib; sourceTree = "<group>"; };
+		BA14EB1F29F9354600CD5720 /* ScreeningRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningRCVC.swift; sourceTree = "<group>"; };
+		BA14EB2229F9424C00CD5720 /* NurseDetailsRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseDetailsRCVC.swift; sourceTree = "<group>"; };
+		BA166E8329EAAF2B0087842E /* AppliedJobDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobDetailsVC.swift; sourceTree = "<group>"; };
+		BA19F67D29F290C7000B09B0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA19F67E29F290C7000B09B0 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
+		BA19F68129F2915D000B09B0 /* TagFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagFlowLayout.swift; sourceTree = "<group>"; };
+		BA263FF12A431C0F00EE6F44 /* PublishedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishedList.swift; sourceTree = "<group>"; };
+		BA263FF22A431C0F00EE6F44 /* PublishedListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishedListData.swift; sourceTree = "<group>"; };
+		BA2D6F7729DAB51E00EF404A /* AppliedJobAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobAlertVC.swift; sourceTree = "<group>"; };
+		BA2E51F629D2CF3900806764 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		BA2E51F829D2D52000806764 /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		BA3393BD29F79AFA00D14761 /* HelpAndSupportRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSupportRCVC.swift; sourceTree = "<group>"; };
+		BA3393C029F7A74300D14761 /* SearchRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRCVC.swift; sourceTree = "<group>"; };
+		BA3393C329F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAdvanceCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA3393C429F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplicationAdvanceCollectionViewCell.xib; sourceTree = "<group>"; };
+		BA3E693029D1697B0013816A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BA3E693529D16A3C0013816A /* Extantion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extantion.swift; sourceTree = "<group>"; };
+		BA3E693A29D16A630013816A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BA3E693C29D16A6B0013816A /* ConstantString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantString.swift; sourceTree = "<group>"; };
+		BA3E693F29D16B1C0013816A /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		BA3E694229D16B8C0013816A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BA3E694429D16FAC0013816A /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		BA4531F029DAD3010048AD2C /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		BA4531F129DAD3010048AD2C /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA4531F229DAD3010048AD2C /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		BA4531F329DAD3010048AD2C /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		BA4531F429DAD3010048AD2C /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		BA4531FA29DADCD60048AD2C /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		BA4531FB29DADCD60048AD2C /* ProfileInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoTableViewCell.xib; sourceTree = "<group>"; };
+		BA4531FE29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		BA4531FF29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInfoDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		BA45320329DAEB510048AD2C /* PersonalInfomationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfomationVC.swift; sourceTree = "<group>"; };
+		BA4667CC29D6F20300CAC442 /* ApplyJobWithoutProfileUpdateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobWithoutProfileUpdateVC.swift; sourceTree = "<group>"; };
+		BA4667CE29D6FC9300CAC442 /* ApplyJobWithProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobWithProfileVC.swift; sourceTree = "<group>"; };
+		BA47977B29ED0041000B3BF7 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		BA47977E29ED08D3000B3BF7 /* LoginUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserTableViewCell.swift; sourceTree = "<group>"; };
+		BA47977F29ED08D3000B3BF7 /* LoginUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginUserTableViewCell.xib; sourceTree = "<group>"; };
+		BA4973D429FA8F9E00FEACEC /* CreatedJobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedJobTableViewCell.swift; sourceTree = "<group>"; };
+		BA4973D529FA8F9E00FEACEC /* CreatedJobTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatedJobTableViewCell.xib; sourceTree = "<group>"; };
+		BA4AF81B29F68AD30047074A /* LoginRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRCVC.swift; sourceTree = "<group>"; };
+		BA4BDADA29F175C900B9C54F /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		BA4C5DC929DABF2400485838 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		BA4CC71B29D2F29900C3CD47 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA4D05FE2A271ADC00217DCD /* MyHiredJobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHiredJobsData.swift; sourceTree = "<group>"; };
+		BA4D05FF2A271ADC00217DCD /* MyHiredJobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHiredJobs.swift; sourceTree = "<group>"; };
+		BA4D06032A272CEC00217DCD /* PastJobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastJobs.swift; sourceTree = "<group>"; };
+		BA4D06042A272CEC00217DCD /* PastJobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastJobsData.swift; sourceTree = "<group>"; };
+		BA4D0BD52A444C0D004256E2 /* PopularJobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularJobTableViewCell.swift; sourceTree = "<group>"; };
+		BA4D0BD62A444C0D004256E2 /* PopularJobTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularJobTableViewCell.xib; sourceTree = "<group>"; };
+		BA4D0BD92A44770D004256E2 /* WorkDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailsVC.swift; sourceTree = "<group>"; };
+		BA4DA71429D3FDD3000A061D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BA4E254929FC149A008CF71A /* CertListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertListTableViewCell.swift; sourceTree = "<group>"; };
+		BA4E254A29FC149A008CF71A /* CertListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CertListTableViewCell.xib; sourceTree = "<group>"; };
+		BA4E98CA2A0CD42400875075 /* MyAppliedJobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppliedJobList.swift; sourceTree = "<group>"; };
+		BA4E98CB2A0CD42400875075 /* MyAppliedPopularJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppliedPopularJob.swift; sourceTree = "<group>"; };
+		BA4E98CC2A0CD42500875075 /* MyAppliedJobData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppliedJobData.swift; sourceTree = "<group>"; };
+		BA4EC7F42A3C7BEE002921C7 /* HomeNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNotification.swift; sourceTree = "<group>"; };
+		BA4EC7F72A3CA0CC002921C7 /* ApplicantTypeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantTypeData.swift; sourceTree = "<group>"; };
+		BA4EC7F82A3CA0CC002921C7 /* ApplicantTypeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantTypeList.swift; sourceTree = "<group>"; };
+		BA4F41FD29F783E600EA87A4 /* AboutUSRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUSRCVC.swift; sourceTree = "<group>"; };
+		BA4F420029F7841A00EA87A4 /* PrivacyPolicyRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyRCVC.swift; sourceTree = "<group>"; };
+		BA4FE8EC29F6B03B00E5C225 /* JobTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA4FE8ED29F6B03B00E5C225 /* JobTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		BA5035F629D2B9F500B496CB /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BA50EB2C29F94BAA00E0CFFD /* SubmittedRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmittedRCVC.swift; sourceTree = "<group>"; };
+		BA50EB2F29F954AB00E0CFFD /* MoveToSubmitRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToSubmitRCVC.swift; sourceTree = "<group>"; };
+		BA54425C29E8015F00AF2747 /* BookMarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkVC.swift; sourceTree = "<group>"; };
+		BA5488272A3AE36300B7C945 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		BA5488282A3AE36300B7C945 /* AboutMeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeData.swift; sourceTree = "<group>"; };
+		BA54882C2A3AED0000B7C945 /* Employers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employers.swift; sourceTree = "<group>"; };
+		BA55E1422A04ED86000DD724 /* JobDetailsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsData.swift; sourceTree = "<group>"; };
+		BA55E1432A04ED86000DD724 /* JobDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetails.swift; sourceTree = "<group>"; };
+		BA566B8E2A3B2AAC00C6FFC6 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		BA566B8F2A3B2AAC00C6FFC6 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		BA5766872A149FDC00BA5770 /* LatestNotiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNotiesTableViewCell.swift; sourceTree = "<group>"; };
+		BA5766882A149FDC00BA5770 /* LatestNotiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestNotiesTableViewCell.xib; sourceTree = "<group>"; };
+		BA57668B2A14A9D400BA5770 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		BA57668D2A14B9DD00BA5770 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		BA5792D629E7DC300028F181 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		BA59CE742A375D8400E068BB /* SubjectTypesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTypesList.swift; sourceTree = "<group>"; };
+		BA59CE752A375D8400E068BB /* SubjectTypesListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTypesListData.swift; sourceTree = "<group>"; };
+		BA5C9D5929FA7B0E00D769CF /* CreatingJobPostRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingJobPostRCVC.swift; sourceTree = "<group>"; };
+		BA5E43D729F6CE6D0005295E /* ProfileRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRCVC.swift; sourceTree = "<group>"; };
+		BA5E43DA29F6D5F30005295E /* EmployersRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployersRCVC.swift; sourceTree = "<group>"; };
+		BA5E43DD29F6DE430005295E /* AccountInfoRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoRCVC.swift; sourceTree = "<group>"; };
+		BA5EE1DC2A092A1600FB6787 /* LicenseStatusData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseStatusData.swift; sourceTree = "<group>"; };
+		BA5EE1DD2A092A1600FB6787 /* LicenseStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseStatus.swift; sourceTree = "<group>"; };
+		BA608B5A2A0E2A3800B9BC71 /* AboutMeRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeRCVC.swift; sourceTree = "<group>"; };
+		BA613FAD2A1E122D006EE9E8 /* Data11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data11.swift; sourceTree = "<group>"; };
+		BA613FAE2A1E122E006EE9E8 /* Role_interest11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role_interest11.swift; sourceTree = "<group>"; };
+		BA613FAF2A1E1231006EE9E8 /* Json4Swift_Base11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base11.swift; sourceTree = "<group>"; };
+		BA613FB02A1E1232006EE9E8 /* Specialty11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specialty11.swift; sourceTree = "<group>"; };
+		BA625B0F29FBCD1400F05B0E /* NuseDetailsRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuseDetailsRCVC.swift; sourceTree = "<group>"; };
+		BA625B1129FBCD6100F05B0E /* CertificationRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationRCVC.swift; sourceTree = "<group>"; };
+		BA625B1429FBCF2700F05B0E /* CertificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationTableViewCell.swift; sourceTree = "<group>"; };
+		BA625B1529FBCF2700F05B0E /* CertificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CertificationTableViewCell.xib; sourceTree = "<group>"; };
+		BA636B6229D5659A001E6A94 /* PopularJobsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularJobsCollectionCell.swift; sourceTree = "<group>"; };
+		BA636B6329D5659A001E6A94 /* PopularJobsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularJobsCollectionCell.xib; sourceTree = "<group>"; };
+		BA636B6629D574CA001E6A94 /* NeueKabel-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueKabel-Italic.ttf"; sourceTree = "<group>"; };
+		BA63CE9B29F8F33A007AC136 /* ApplicationDetailsRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDetailsRCVC.swift; sourceTree = "<group>"; };
+		BA63CE9E29F9023D007AC136 /* JobAppliedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAppliedTableViewCell.swift; sourceTree = "<group>"; };
+		BA63CE9F29F9023D007AC136 /* JobAppliedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobAppliedTableViewCell.xib; sourceTree = "<group>"; };
+		BA6676572A09102600732DCD /* LicenseTypesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseTypesData.swift; sourceTree = "<group>"; };
+		BA6676582A09102600732DCD /* LicenseTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseTypes.swift; sourceTree = "<group>"; };
+		BA66E14729FA2F7500AB4E7F /* OnBoardingRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingRCVC.swift; sourceTree = "<group>"; };
+		BA66E14A29FA336B00AB4E7F /* OnboardingEmployeesRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingEmployeesRCVC.swift; sourceTree = "<group>"; };
+		BA66E14D29FA384300AB4E7F /* WorkingRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingRCVC.swift; sourceTree = "<group>"; };
+		BA66E15029FA38FC00AB4E7F /* WorkingEmployeesRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingEmployeesRCVC.swift; sourceTree = "<group>"; };
+		BA66E15329FA436900AB4E7F /* MoveToDoneRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToDoneRCVC.swift; sourceTree = "<group>"; };
+		BA66E15629FA446500AB4E7F /* DoneEmployeesRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneEmployeesRCVC.swift; sourceTree = "<group>"; };
+		BA66E15929FA5AD800AB4E7F /* RejectedRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectedRCVC.swift; sourceTree = "<group>"; };
+		BA6BF91C29ED48F4008B2112 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		BA6BF91D29ED48F4008B2112 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		BA6C23A32A1CD1CF000D4A8B /* AccountInfoDataRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoDataRC.swift; sourceTree = "<group>"; };
+		BA6C23A42A1CD1CF000D4A8B /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		BA6D959C29DD7D310092F8A0 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		BA6D959E29DD7ECF0092F8A0 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		BA6D959F29DD7ECF0092F8A0 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		BA6D95A329DD88460092F8A0 /* PrivacyPoliciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPoliciesVC.swift; sourceTree = "<group>"; };
+		BA6D95A529DD8EB10092F8A0 /* AboutUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUS.swift; sourceTree = "<group>"; };
+		BA6D95A829DD8FD30092F8A0 /* AccountInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoVC.swift; sourceTree = "<group>"; };
+		BA702E712A0E70070000A324 /* ApplicationAdvanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAdvanceTableViewCell.swift; sourceTree = "<group>"; };
+		BA702E722A0E70070000A324 /* ApplicationAdvanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplicationAdvanceTableViewCell.xib; sourceTree = "<group>"; };
+		BA7607952A1C7BE5001158E6 /* MySavedJobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySavedJobList.swift; sourceTree = "<group>"; };
+		BA7607962A1C7BE5001158E6 /* MySavedList_jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySavedList_jobs.swift; sourceTree = "<group>"; };
+		BA7607972A1C7BE5001158E6 /* MySavedJobListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySavedJobListData.swift; sourceTree = "<group>"; };
+		BA772FCD2A0BA36B00EC3BE3 /* BrowseJobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseJobsData.swift; sourceTree = "<group>"; };
+		BA772FCE2A0BA36B00EC3BE3 /* BrowseJobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseJobs.swift; sourceTree = "<group>"; };
+		BA772FCF2A0BA36B00EC3BE3 /* BrowsePopular_jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowsePopular_jobs.swift; sourceTree = "<group>"; };
+		BA7771DF29FAA2A40087B65A /* CreatJobRequestRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatJobRequestRCVC.swift; sourceTree = "<group>"; };
+		BA7771E129FAB18B0087B65A /* EditCreatJobRequestRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCreatJobRequestRCVC.swift; sourceTree = "<group>"; };
+		BA78C1392A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateJobStatusTableViewCell.swift; sourceTree = "<group>"; };
+		BA78C13A2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateJobStatusTableViewCell.xib; sourceTree = "<group>"; };
+		BA7D953D29DD46E000BCD189 /* LicensesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensesVC.swift; sourceTree = "<group>"; };
+		BA7D954129DD53AF00BCD189 /* CertificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationVC.swift; sourceTree = "<group>"; };
+		BA7FA31329EBC01A00B339B6 /* messageListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageListTableViewCell.swift; sourceTree = "<group>"; };
+		BA7FA31429EBC01A00B339B6 /* messageListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = messageListTableViewCell.xib; sourceTree = "<group>"; };
+		BA84DBCD2A12069900A73D3C /* UpdateJobStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateJobStatusViewController.swift; sourceTree = "<group>"; };
+		BA86AF3E29F96FBF0044873E /* MoveToOfferedRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToOfferedRCVC.swift; sourceTree = "<group>"; };
+		BA86AF4129F9791D0044873E /* OfferedEmployeesRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferedEmployeesRCVC.swift; sourceTree = "<group>"; };
+		BA8D2DFE29F2BB84003DC713 /* DoubleSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DoubleSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A20329D2C10C002E6A22 /* NeueKabel-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueKabel-Medium.ttf"; sourceTree = "<group>"; };
+		BA90A20529D2C1D8002E6A22 /* NeueKabel-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueKabel-Bold.ttf"; sourceTree = "<group>"; };
+		BA920CDE2A0A14AF00F82CA3 /* CertificationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificationData.swift; sourceTree = "<group>"; };
+		BA920CDF2A0A14AF00F82CA3 /* Certification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certification.swift; sourceTree = "<group>"; };
+		BA96FD322A3B1FFA00AEC7D6 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		BA9C2EE629E5677700BA3B0C /* HelpAndSupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSupportVC.swift; sourceTree = "<group>"; };
+		BAA27CDD29D1D20200A80210 /* NeueKabel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeueKabel.ttf; sourceTree = "<group>"; };
+		BAA5D05829F8083000BC922D /* MessageRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRCVC.swift; sourceTree = "<group>"; };
+		BAA5D05A29F808F700BC922D /* ChatRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRCVC.swift; sourceTree = "<group>"; };
+		BAA64F5C2A0B7733007F632B /* NurseSpecialitiesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseSpecialitiesData.swift; sourceTree = "<group>"; };
+		BAA64F5D2A0B7733007F632B /* NurseSpecialities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseSpecialities.swift; sourceTree = "<group>"; };
+		BAA64F622A0B7CC9007F632B /* NurseWorkLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseWorkLocation.swift; sourceTree = "<group>"; };
+		BAA64F632A0B7CC9007F632B /* NurseLocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseLocationData.swift; sourceTree = "<group>"; };
+		BAA64F672A0B86A8007F632B /* NurseJobTypesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseJobTypesData.swift; sourceTree = "<group>"; };
+		BAA64F682A0B86A8007F632B /* NurseJobTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseJobTypes.swift; sourceTree = "<group>"; };
+		BAA64F6C2A0B8BFE007F632B /* NurseShifts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseShifts.swift; sourceTree = "<group>"; };
+		BAA64F6D2A0B8BFE007F632B /* NurseShiftsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseShiftsData.swift; sourceTree = "<group>"; };
+		BAA6FEDA2A4427D200211A32 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		BAAD4D7B2A0D29F60014A48A /* NurseProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfile.swift; sourceTree = "<group>"; };
+		BAAD4D7C2A0D29F60014A48A /* NurseProfiCertitficate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfiCertitficate.swift; sourceTree = "<group>"; };
+		BAAD4D7D2A0D29F70014A48A /* NurseProfiExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfiExperience.swift; sourceTree = "<group>"; };
+		BAAD4D7E2A0D29F70014A48A /* NurseProfiRoleinte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfiRoleinte.swift; sourceTree = "<group>"; };
+		BAAD4D7F2A0D29F80014A48A /* NurseProfileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfileData.swift; sourceTree = "<group>"; };
+		BAAD4D802A0D29F80014A48A /* NurseProfileSpecialty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseProfileSpecialty.swift; sourceTree = "<group>"; };
+		BAAE113E29F7DE5F00797857 /* NewApplicationsRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApplicationsRCVC.swift; sourceTree = "<group>"; };
+		BAAE114129F7E0F300797857 /* NewApplicationChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApplicationChatTableViewCell.swift; sourceTree = "<group>"; };
+		BAAE114229F7E0F300797857 /* NewApplicationChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewApplicationChatTableViewCell.xib; sourceTree = "<group>"; };
+		BAAECF8429FB859C00C8ABDC /* EditJobRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobRCVC.swift; sourceTree = "<group>"; };
+		BAAECF8729FB897D00C8ABDC /* HoldAndPublishedRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldAndPublishedRCVC.swift; sourceTree = "<group>"; };
+		BAAECF8A29FBAA6500C8ABDC /* NurseAppliedListRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseAppliedListRCVC.swift; sourceTree = "<group>"; };
+		BAB1709C2A3730B800D98C4E /* Recommended_jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recommended_jobs.swift; sourceTree = "<group>"; };
+		BAB1709E2A3730C800D98C4E /* Recently_added.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recently_added.swift; sourceTree = "<group>"; };
+		BAB322142A0A2FB900AABF95 /* ExperienceTypeList Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExperienceTypeList Data.swift"; sourceTree = "<group>"; };
+		BAB322152A0A2FB900AABF95 /* ExperienceTypeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceTypeList.swift; sourceTree = "<group>"; };
+		BABA532229D59B9E004555F0 /* RecommendedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTableViewCell.swift; sourceTree = "<group>"; };
+		BABA532329D59B9E004555F0 /* RecommendedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendedTableViewCell.xib; sourceTree = "<group>"; };
+		BABA532629D5AAFB004555F0 /* NeueKabelMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeueKabelMediumItalic.ttf; sourceTree = "<group>"; };
+		BABA532929D5AD6F004555F0 /* JobDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsVC.swift; sourceTree = "<group>"; };
+		BABD91602A1B5A8800F91B9F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BABD91612A1B5A8800F91B9F /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		BABD91622A1B5A8C00F91B9F /* Popular_jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popular_jobs.swift; sourceTree = "<group>"; };
+		BAC0E45529DD314B00E8379C /* ResumeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeVC.swift; sourceTree = "<group>"; };
+		BAC49D822A31A08200EEE766 /* PopularJobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularJobList.swift; sourceTree = "<group>"; };
+		BAC49D832A31A08200EEE766 /* PopularJobListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularJobListData.swift; sourceTree = "<group>"; };
+		BAC625422A39913C0027B1C9 /* AssignmentDurationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentDurationData.swift; sourceTree = "<group>"; };
+		BAC625432A39913C0027B1C9 /* AssignmentDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentDuration.swift; sourceTree = "<group>"; };
+		BAC7BC1E2A177DE000D1501A /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		BAC7BC1F2A177DE100D1501A /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		BAC7BC222A177DE100D1501A /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		BAD360992A39E7E9004256A1 /* HomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		BAD3609A2A39E7E9004256A1 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BAD51D2829D4045C000A4845 /* TabBarCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCV.swift; sourceTree = "<group>"; };
+		BAD51D3029D41158000A4845 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BAD51D3429D41182000A4845 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		BAD521F52A42DAEE00C8F717 /* DraftApplicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftApplicationData.swift; sourceTree = "<group>"; };
+		BAD521F62A42DAEE00C8F717 /* DraftApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftApplication.swift; sourceTree = "<group>"; };
+		BADDB6B129D3079F0031A063 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		BAE7C1D629FBE4B400E58701 /* FullDetailsNurseRCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDetailsNurseRCVC.swift; sourceTree = "<group>"; };
+		BAF5790529F6892B0045D018 /* RecruitersStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecruitersStoryboard.storyboard; sourceTree = "<group>"; };
+		BAF640FC29F14CBC00E87269 /* MaterialActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF9A44529F1450B0069C0CE /* LogInDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInDataModel.swift; sourceTree = "<group>"; };
+		BAF9A44729F145230069C0CE /* APIDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataHandler.swift; sourceTree = "<group>"; };
+		C5D8B7B3AA3EFDAF2B9E58D5 /* Pods-GoodWork-GoodWorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWork-GoodWorkUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoodWork-GoodWorkUITests/Pods-GoodWork-GoodWorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C9D27EF5879D9B573C7E07 /* Pods-GoodWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWork.release.xcconfig"; path = "Target Support Files/Pods-GoodWork/Pods-GoodWork.release.xcconfig"; sourceTree = "<group>"; };
+		D7D417169863BD5D69C8E168 /* Pods-GoodWork-GoodWorkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWork-GoodWorkUITests.release.xcconfig"; path = "Target Support Files/Pods-GoodWork-GoodWorkUITests/Pods-GoodWork-GoodWorkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEA3748003BE23FB210D6556 /* Pods-GoodWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWork.debug.xcconfig"; path = "Target Support Files/Pods-GoodWork/Pods-GoodWork.debug.xcconfig"; sourceTree = "<group>"; };
+		E1979ACBF42FA639257156F2 /* Pods_GoodWork_GoodWorkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWork_GoodWorkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA130B7329D1584600496986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8F75A59CE8F663F73FD725 /* Pods_GoodWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B8C29D1584900496986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B3AF5D3AF8F256838461DF /* Pods_GoodWorkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B9629D1584900496986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C7DE65FA26E6E94797BFAE /* Pods_GoodWork_GoodWorkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2320D405C488D804DE840D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8D2DFE29F2BB84003DC713 /* DoubleSlider.framework */,
+				BAF640FC29F14CBC00E87269 /* MaterialActivityIndicator.framework */,
+				A55FC68DDA76309BFEB0DE7B /* Pods_GoodWork.framework */,
+				E1979ACBF42FA639257156F2 /* Pods_GoodWork_GoodWorkUITests.framework */,
+				09106ED1FD17221F4D4F15CC /* Pods_GoodWorkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E95FC3A30B7C5AFDD396D5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA3748003BE23FB210D6556 /* Pods-GoodWork.debug.xcconfig */,
+				C8C9D27EF5879D9B573C7E07 /* Pods-GoodWork.release.xcconfig */,
+				C5D8B7B3AA3EFDAF2B9E58D5 /* Pods-GoodWork-GoodWorkUITests.debug.xcconfig */,
+				D7D417169863BD5D69C8E168 /* Pods-GoodWork-GoodWorkUITests.release.xcconfig */,
+				61B23FE3FD21885C3E7EA56A /* Pods-GoodWorkTests.debug.xcconfig */,
+				92EBD5895B8FD15376F7B003 /* Pods-GoodWorkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA0B8E6B29F6988000BA91AC /* LoginFLOWRC */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AF81B29F68AD30047074A /* LoginRCVC.swift */,
+				BA0B8E6929F6953300BA91AC /* SignUpRCVC.swift */,
+				BA0B8E6729F691BB00BA91AC /* VerificationRCVC.swift */,
+			);
+			path = LoginFLOWRC;
+			sourceTree = "<group>";
+		};
+		BA0B8E6C29F6989700BA91AC /* TabBarRC */ = {
+			isa = PBXGroup;
+			children = (
+				BA0B8E6D29F6992700BA91AC /* TabBarRCVCViewController.swift */,
+			);
+			path = TabBarRC;
+			sourceTree = "<group>";
+		};
+		BA0B8E6F29F69A5400BA91AC /* HomeRC */ = {
+			isa = PBXGroup;
+			children = (
+				BAD360982A39E7D4004256A1 /* Model */,
+				BA4FE8EB29F6B02200E5C225 /* XIB */,
+				BA0B8E7029F69A7400BA91AC /* HomeRCVC.swift */,
+			);
+			path = HomeRC;
+			sourceTree = "<group>";
+		};
+		BA130B6D29D1584600496986 = {
+			isa = PBXGroup;
+			children = (
+				BA130B7829D1584600496986 /* GoodWork */,
+				BA130B9229D1584900496986 /* GoodWorkTests */,
+				BA130B9C29D1584900496986 /* GoodWorkUITests */,
+				BA130B7729D1584600496986 /* Products */,
+				2E95FC3A30B7C5AFDD396D5F /* Pods */,
+				2320D405C488D804DE840D86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA130B7729D1584600496986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA130B7629D1584600496986 /* GoodWork.app */,
+				BA130B8F29D1584900496986 /* GoodWorkTests.xctest */,
+				BA130B9929D1584900496986 /* GoodWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA130B7829D1584600496986 /* GoodWork */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DFC6329F673CE00732825 /* RecruiterVC */,
+				BA3E693429D169FC0013816A /* Helper */,
+				BAB5E5A729D161A500FFFF3D /* StoryBoards */,
+				BAB5E5A629D1619000FFFF3D /* WorkerVC */,
+				BA130B7929D1584600496986 /* AppDelegate.swift */,
+				BA130B7B29D1584600496986 /* SceneDelegate.swift */,
+				BA130B8529D1584900496986 /* Assets.xcassets */,
+				BA130B8A29D1584900496986 /* Info.plist */,
+				BA130B8229D1584600496986 /* GoodWork.xcdatamodeld */,
+			);
+			path = GoodWork;
+			sourceTree = "<group>";
+		};
+		BA130B9229D1584900496986 /* GoodWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA130B9329D1584900496986 /* GoodWorkTests.swift */,
+			);
+			path = GoodWorkTests;
+			sourceTree = "<group>";
+		};
+		BA130B9C29D1584900496986 /* GoodWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA130B9D29D1584900496986 /* GoodWorkUITests.swift */,
+				BA130B9F29D1584900496986 /* GoodWorkUITestsLaunchTests.swift */,
+			);
+			path = GoodWorkUITests;
+			sourceTree = "<group>";
+		};
+		BA13F04729DD5B3A0024EA55 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				BAB322132A0A2FAF00AABF95 /* Model */,
+				BA13F04829DD5B4E0024EA55 /* ExperienceVC.swift */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		BA13F04A29DD61C20024EA55 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				BA13F04B29DD61DA0024EA55 /* EducationVC.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		BA14EB2129F9423500CD5720 /* NurseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EB2229F9424C00CD5720 /* NurseDetailsRCVC.swift */,
+			);
+			path = NurseDetails;
+			sourceTree = "<group>";
+		};
+		BA166E8229EAAEEF0087842E /* AppliedJobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C1A192A308DB40006BCF3 /* Model */,
+				BA166E8329EAAF2B0087842E /* AppliedJobDetailsVC.swift */,
+			);
+			path = AppliedJobDetails;
+			sourceTree = "<group>";
+		};
+		BA19F67C29F2909E000B09B0 /* TagListXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA19F67D29F290C7000B09B0 /* TagCollectionViewCell.swift */,
+				BA19F67E29F290C7000B09B0 /* TagCollectionViewCell.xib */,
+				BA19F68129F2915D000B09B0 /* TagFlowLayout.swift */,
+			);
+			path = TagListXIB;
+			sourceTree = "<group>";
+		};
+		BA263FF02A431C0200EE6F44 /* Published */ = {
+			isa = PBXGroup;
+			children = (
+				BA263FF12A431C0F00EE6F44 /* PublishedList.swift */,
+				BA263FF22A431C0F00EE6F44 /* PublishedListData.swift */,
+			);
+			path = Published;
+			sourceTree = "<group>";
+		};
+		BA2D6F7929DABA9400EF404A /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C5DC929DABF2400485838 /* MyProfileVC.swift */,
+				BA4531FA29DADCD60048AD2C /* ProfileInfoTableViewCell.swift */,
+				BA4531FB29DADCD60048AD2C /* ProfileInfoTableViewCell.xib */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		BA3393BC29F799E100D14761 /* HelpAndSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BA3393BD29F79AFA00D14761 /* HelpAndSupportRCVC.swift */,
+			);
+			path = HelpAndSupport;
+			sourceTree = "<group>";
+		};
+		BA3393BF29F7A70800D14761 /* SearchRCVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EC7F62A3CA06F002921C7 /* Model */,
+				BA702E702A0E6FEF0000A324 /* TableXIB */,
+				BA3393C229F7B10300D14761 /* XIB */,
+				BA3393C029F7A74300D14761 /* SearchRCVC.swift */,
+			);
+			path = SearchRCVC;
+			sourceTree = "<group>";
+		};
+		BA3393C229F7B10300D14761 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA3393C329F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.swift */,
+				BA3393C429F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA3E693429D169FC0013816A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7BC1C2A177CC100D1501A /* Graph */,
+				BAF9A44429F1443D0069C0CE /* APIManager */,
+				BA3E693E29D16AF20013816A /* FontDesign */,
+				BA3E693929D16A4C0013816A /* Constant */,
+				BA3E693029D1697B0013816A /* AppConstants.swift */,
+				BA3E693529D16A3C0013816A /* Extantion.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BA3E693929D16A4C0013816A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E693A29D16A630013816A /* Constant.swift */,
+				BA3E693C29D16A6B0013816A /* ConstantString.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		BA3E693E29D16AF20013816A /* FontDesign */ = {
+			isa = PBXGroup;
+			children = (
+				BAA27CDC29D1D1E300A80210 /* FontsTTF */,
+				BA3E693F29D16B1C0013816A /* Design.swift */,
+				BAF9A44729F145230069C0CE /* APIDataHandler.swift */,
+			);
+			path = FontDesign;
+			sourceTree = "<group>";
+		};
+		BA3E694129D16B660013816A /* OnboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E694429D16FAC0013816A /* OnboardingVC.swift */,
+				BA3E694229D16B8C0013816A /* LoginVC.swift */,
+				BA2E51F629D2CF3900806764 /* BaseVC.swift */,
+				BA2E51F829D2D52000806764 /* VerificationVC.swift */,
+				BADDB6B129D3079F0031A063 /* SignUpVC.swift */,
+			);
+			path = OnboardVC;
+			sourceTree = "<group>";
+		};
+		BA45320229DAEB2F0048AD2C /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA4531FE29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.swift */,
+				BA4531FF29DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.xib */,
+				BA45320329DAEB510048AD2C /* PersonalInfomationVC.swift */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		BA4667CB29D6F1DA00CAC442 /* ApplyJob */ = {
+			isa = PBXGroup;
+			children = (
+				BA4667CC29D6F20300CAC442 /* ApplyJobWithoutProfileUpdateVC.swift */,
+				BA4667CE29D6FC9300CAC442 /* ApplyJobWithProfileVC.swift */,
+			);
+			path = ApplyJob;
+			sourceTree = "<group>";
+		};
+		BA47977D29ED08B9000B3BF7 /* ChatXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA47977E29ED08D3000B3BF7 /* LoginUserTableViewCell.swift */,
+				BA47977F29ED08D3000B3BF7 /* LoginUserTableViewCell.xib */,
+				BA6BF91C29ED48F4008B2112 /* UserTableViewCell.swift */,
+				BA6BF91D29ED48F4008B2112 /* UserTableViewCell.xib */,
+			);
+			path = ChatXIB;
+			sourceTree = "<group>";
+		};
+		BA4973D329FA8F8300FEACEC /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA4973D429FA8F9E00FEACEC /* CreatedJobTableViewCell.swift */,
+				BA4973D529FA8F9E00FEACEC /* CreatedJobTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA4AF81A29F68AB90047074A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BA608B592A0E2A1A00B9BC71 /* AboutMe */,
+				BAE7C1D529FBE49400E58701 /* FullDetailsNurse */,
+				BA625B0E29FBCCFC00F05B0E /* NuseDetails */,
+				BAAECF8929FBAA1600C8ABDC /* NurseApplied */,
+				BAAECF8629FB895F00C8ABDC /* HoldPublished */,
+				BAAECF8329FB857A00C8ABDC /* EditJob */,
+				BA7771DE29FAA2760087B65A /* CreatJobReques */,
+				BA5C9D5829FA7AC200D769CF /* CreatingJobPost */,
+				BA66E15829FA5AC100AB4E7F /* Rejected */,
+				BA66E15529FA444A00AB4E7F /* DoneEmployees */,
+				BA66E15229FA434D00AB4E7F /* Done */,
+				BA66E14F29FA38D500AB4E7F /* WorkingEmployees */,
+				BA50EB2B29F94B9300E0CFFD /* Submitted */,
+				BA66E14C29FA382C00AB4E7F /* Working */,
+				BA66E14929FA334200AB4E7F /* OnboardingEmployees */,
+				BA66E14629FA2F5D00AB4E7F /* OnBoarding */,
+				BA86AF4029F978F40044873E /* OfferedEmploy */,
+				BA86AF3D29F96F960044873E /* MoveToOffered */,
+				BA50EB2E29F9549500E0CFFD /* MoveTo */,
+				BA14EB2129F9423500CD5720 /* NurseDetails */,
+				BA6E59AC29F931DB005E6828 /* Screening */,
+				BA63CE9A29F8F317007AC136 /* AppDetailll */,
+				BAAE113D29F7DDE400797857 /* NewApplications */,
+				BA3393BF29F7A70800D14761 /* SearchRCVC */,
+				BA3393BC29F799E100D14761 /* HelpAndSupport */,
+				BA4F41FF29F783EC00EA87A4 /* PrivacyPolicy */,
+				BA4F41FC29F783CB00EA87A4 /* AboutUsRC */,
+				BA5E43DC29F6DCFB0005295E /* AccountInfo */,
+				BA5E43D929F6D5DB0005295E /* Employers */,
+				BA5E43D629F6CE480005295E /* ProfileRC */,
+				BA0B8E6F29F69A5400BA91AC /* HomeRC */,
+				BA0B8E6C29F6989700BA91AC /* TabBarRC */,
+				BA0B8E6B29F6988000BA91AC /* LoginFLOWRC */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BA4BDAD929F175AF00B9C54F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F5B2A0B7726007F632B /* Model */,
+				BA19F67C29F2909E000B09B0 /* TagListXIB */,
+				BA4BDADA29F175C900B9C54F /* FilterVC.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		BA4D05FD2A271ABA00217DCD /* MyHiredJobs */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D05FF2A271ADC00217DCD /* MyHiredJobs.swift */,
+				BA4D05FE2A271ADC00217DCD /* MyHiredJobsData.swift */,
+			);
+			path = MyHiredJobs;
+			sourceTree = "<group>";
+		};
+		BA4D06022A272C9600217DCD /* PastJob */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D06032A272CEC00217DCD /* PastJobs.swift */,
+				BA4D06042A272CEC00217DCD /* PastJobsData.swift */,
+			);
+			path = PastJob;
+			sourceTree = "<group>";
+		};
+		BA4DA71329D3FDBE000A061D /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAD51D2829D4045C000A4845 /* TabBarCV.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		BA4E254429FC0EC7008CF71A /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E254929FC149A008CF71A /* CertListTableViewCell.swift */,
+				BA4E254A29FC149A008CF71A /* CertListTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA4E98C92A0CD41200875075 /* MyAppliedJobList */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E98CC2A0CD42500875075 /* MyAppliedJobData.swift */,
+				BA4E98CA2A0CD42400875075 /* MyAppliedJobList.swift */,
+				BA4E98CB2A0CD42400875075 /* MyAppliedPopularJob.swift */,
+			);
+			path = MyAppliedJobList;
+			sourceTree = "<group>";
+		};
+		BA4EC7F62A3CA06F002921C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EC7F72A3CA0CC002921C7 /* ApplicantTypeData.swift */,
+				BA4EC7F82A3CA0CC002921C7 /* ApplicantTypeList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4F41FC29F783CB00EA87A4 /* AboutUsRC */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F41FD29F783E600EA87A4 /* AboutUSRCVC.swift */,
+			);
+			path = AboutUsRC;
+			sourceTree = "<group>";
+		};
+		BA4F41FF29F783EC00EA87A4 /* PrivacyPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F420029F7841A00EA87A4 /* PrivacyPolicyRCVC.swift */,
+			);
+			path = PrivacyPolicy;
+			sourceTree = "<group>";
+		};
+		BA4FE8EB29F6B02200E5C225 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA5766862A149FC500BA5770 /* LatestNoties */,
+				BA4FE8EC29F6B03B00E5C225 /* JobTypeCollectionViewCell.swift */,
+				BA4FE8ED29F6B03B00E5C225 /* JobTypeCollectionViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA50EB2B29F94B9300E0CFFD /* Submitted */ = {
+			isa = PBXGroup;
+			children = (
+				BA50EB2C29F94BAA00E0CFFD /* SubmittedRCVC.swift */,
+			);
+			path = Submitted;
+			sourceTree = "<group>";
+		};
+		BA50EB2E29F9549500E0CFFD /* MoveTo */ = {
+			isa = PBXGroup;
+			children = (
+				BA50EB2F29F954AB00E0CFFD /* MoveToSubmitRCVC.swift */,
+			);
+			path = MoveTo;
+			sourceTree = "<group>";
+		};
+		BA5148852A022B8C00F99ACC /* Explore_Model */ = {
+			isa = PBXGroup;
+			children = (
+				BABD91602A1B5A8800F91B9F /* Data.swift */,
+				BABD91612A1B5A8800F91B9F /* Json4Swift_Base.swift */,
+				BABD91622A1B5A8C00F91B9F /* Popular_jobs.swift */,
+				BAB1709C2A3730B800D98C4E /* Recommended_jobs.swift */,
+				BAB1709E2A3730C800D98C4E /* Recently_added.swift */,
+			);
+			path = Explore_Model;
+			sourceTree = "<group>";
+		};
+		BA53C3FA2A1DFBDB00DDEF75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA613FAD2A1E122D006EE9E8 /* Data11.swift */,
+				BA613FAF2A1E1231006EE9E8 /* Json4Swift_Base11.swift */,
+				BA613FAE2A1E122E006EE9E8 /* Role_interest11.swift */,
+				BA613FB02A1E1232006EE9E8 /* Specialty11.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA54425B29E8013200AF2747 /* BookMarked */ = {
+			isa = PBXGroup;
+			children = (
+				BAA551B82A0CBA2C0018A0CC /* Model */,
+				BA54425C29E8015F00AF2747 /* BookMarkVC.swift */,
+			);
+			path = BookMarked;
+			sourceTree = "<group>";
+		};
+		BA5488262A3AE30900B7C945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA5488272A3AE36300B7C945 /* AboutMe.swift */,
+				BA5488282A3AE36300B7C945 /* AboutMeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA54882B2A3AECD700B7C945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA54882C2A3AED0000B7C945 /* Employers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA55E13A2A04D73A000DD724 /* NurseProfile_Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD4D7C2A0D29F60014A48A /* NurseProfiCertitficate.swift */,
+				BAAD4D7D2A0D29F70014A48A /* NurseProfiExperience.swift */,
+				BAAD4D7B2A0D29F60014A48A /* NurseProfile.swift */,
+				BAAD4D7F2A0D29F80014A48A /* NurseProfileData.swift */,
+				BAAD4D802A0D29F80014A48A /* NurseProfileSpecialty.swift */,
+				BAAD4D7E2A0D29F70014A48A /* NurseProfiRoleinte.swift */,
+			);
+			path = NurseProfile_Model;
+			sourceTree = "<group>";
+		};
+		BA55E1412A04ED1F000DD724 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA55E1422A04ED86000DD724 /* JobDetailsData.swift */,
+				BA55E1432A04ED86000DD724 /* JobDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA566B8D2A3B2A6200C6FFC6 /* XIBCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA566B8E2A3B2AAC00C6FFC6 /* NotificationTableViewCell.swift */,
+				BA566B8F2A3B2AAC00C6FFC6 /* NotificationTableViewCell.xib */,
+			);
+			path = XIBCell;
+			sourceTree = "<group>";
+		};
+		BA5766862A149FC500BA5770 /* LatestNoties */ = {
+			isa = PBXGroup;
+			children = (
+				BA5766872A149FDC00BA5770 /* LatestNotiesTableViewCell.swift */,
+				BA5766882A149FDC00BA5770 /* LatestNotiesTableViewCell.xib */,
+			);
+			path = LatestNoties;
+			sourceTree = "<group>";
+		};
+		BA5792D529E7DC170028F181 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				BA772FCC2A0BA35D00EC3BE3 /* Model */,
+				BA5792D629E7DC300028F181 /* ExploreVC.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		BA59CE732A375D3700E068BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA59CE742A375D8400E068BB /* SubjectTypesList.swift */,
+				BA59CE752A375D8400E068BB /* SubjectTypesListData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA5C9D5829FA7AC200D769CF /* CreatingJobPost */ = {
+			isa = PBXGroup;
+			children = (
+				BAD521F42A42DADB00C8F717 /* Model */,
+				BA4973D329FA8F8300FEACEC /* XIB */,
+				BA5C9D5929FA7B0E00D769CF /* CreatingJobPostRCVC.swift */,
+			);
+			path = CreatingJobPost;
+			sourceTree = "<group>";
+		};
+		BA5DFC6329F673CE00732825 /* RecruiterVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AF81A29F68AB90047074A /* VC */,
+				BAF5790429F688F80045D018 /* RecruitersStoryBoards */,
+			);
+			path = RecruiterVC;
+			sourceTree = "<group>";
+		};
+		BA5E43D629F6CE480005295E /* ProfileRC */ = {
+			isa = PBXGroup;
+			children = (
+				BA5E43D729F6CE6D0005295E /* ProfileRCVC.swift */,
+			);
+			path = ProfileRC;
+			sourceTree = "<group>";
+		};
+		BA5E43D929F6D5DB0005295E /* Employers */ = {
+			isa = PBXGroup;
+			children = (
+				BA54882B2A3AECD700B7C945 /* Model */,
+				BA5E43DA29F6D5F30005295E /* EmployersRCVC.swift */,
+			);
+			path = Employers;
+			sourceTree = "<group>";
+		};
+		BA5E43DC29F6DCFB0005295E /* AccountInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C23A22A1CD11F000D4A8B /* AccountInfo */,
+				BA5E43DD29F6DE430005295E /* AccountInfoRCVC.swift */,
+			);
+			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		BA608B592A0E2A1A00B9BC71 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				BA5488262A3AE30900B7C945 /* Model */,
+				BA608B5A2A0E2A3800B9BC71 /* AboutMeRCVC.swift */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		BA625B0E29FBCCFC00F05B0E /* NuseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BA625B1329FBCF0900F05B0E /* XIB */,
+				BA625B0F29FBCD1400F05B0E /* NuseDetailsRCVC.swift */,
+				BA625B1129FBCD6100F05B0E /* CertificationRCVC.swift */,
+			);
+			path = NuseDetails;
+			sourceTree = "<group>";
+		};
+		BA625B1329FBCF0900F05B0E /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA625B1429FBCF2700F05B0E /* CertificationTableViewCell.swift */,
+				BA625B1529FBCF2700F05B0E /* CertificationTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA636B6129D5654A001E6A94 /* CollectionViewXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA636B6229D5659A001E6A94 /* PopularJobsCollectionCell.swift */,
+				BA636B6329D5659A001E6A94 /* PopularJobsCollectionCell.xib */,
+			);
+			path = CollectionViewXIB;
+			sourceTree = "<group>";
+		};
+		BA63CE9A29F8F317007AC136 /* AppDetailll */ = {
+			isa = PBXGroup;
+			children = (
+				BAA5D05729F807F500BC922D /* MessageRCVC */,
+				BA63CE9D29F90218007AC136 /* XIB */,
+				BA63CE9B29F8F33A007AC136 /* ApplicationDetailsRCVC.swift */,
+			);
+			path = AppDetailll;
+			sourceTree = "<group>";
+		};
+		BA63CE9D29F90218007AC136 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA63CE9E29F9023D007AC136 /* JobAppliedTableViewCell.swift */,
+				BA63CE9F29F9023D007AC136 /* JobAppliedTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA6676562A090F3E00732DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA6676582A09102600732DCD /* LicenseTypes.swift */,
+				BA6676572A09102600732DCD /* LicenseTypesData.swift */,
+				BA5EE1DD2A092A1600FB6787 /* LicenseStatus.swift */,
+				BA5EE1DC2A092A1600FB6787 /* LicenseStatusData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA66E14629FA2F5D00AB4E7F /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E14729FA2F7500AB4E7F /* OnBoardingRCVC.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		BA66E14929FA334200AB4E7F /* OnboardingEmployees */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E14A29FA336B00AB4E7F /* OnboardingEmployeesRCVC.swift */,
+			);
+			path = OnboardingEmployees;
+			sourceTree = "<group>";
+		};
+		BA66E14C29FA382C00AB4E7F /* Working */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E14D29FA384300AB4E7F /* WorkingRCVC.swift */,
+			);
+			path = Working;
+			sourceTree = "<group>";
+		};
+		BA66E14F29FA38D500AB4E7F /* WorkingEmployees */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E15029FA38FC00AB4E7F /* WorkingEmployeesRCVC.swift */,
+			);
+			path = WorkingEmployees;
+			sourceTree = "<group>";
+		};
+		BA66E15229FA434D00AB4E7F /* Done */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E15329FA436900AB4E7F /* MoveToDoneRCVC.swift */,
+			);
+			path = Done;
+			sourceTree = "<group>";
+		};
+		BA66E15529FA444A00AB4E7F /* DoneEmployees */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E15629FA446500AB4E7F /* DoneEmployeesRCVC.swift */,
+			);
+			path = DoneEmployees;
+			sourceTree = "<group>";
+		};
+		BA66E15829FA5AC100AB4E7F /* Rejected */ = {
+			isa = PBXGroup;
+			children = (
+				BA66E15929FA5AD800AB4E7F /* RejectedRCVC.swift */,
+			);
+			path = Rejected;
+			sourceTree = "<group>";
+		};
+		BA6C23A22A1CD11F000D4A8B /* AccountInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C23A42A1CD1CF000D4A8B /* AccountInfo.swift */,
+				BA6C23A32A1CD1CF000D4A8B /* AccountInfoDataRC.swift */,
+			);
+			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		BA6D959B29DD7D1A0092F8A0 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D959C29DD7D310092F8A0 /* SettingsVC.swift */,
+				BA6D959E29DD7ECF0092F8A0 /* SettingsTableViewCell.swift */,
+				BA6D959F29DD7ECF0092F8A0 /* SettingsTableViewCell.xib */,
+				BA6D95A329DD88460092F8A0 /* PrivacyPoliciesVC.swift */,
+				BA6D95A529DD8EB10092F8A0 /* AboutUS.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BA6D95A729DD8FB80092F8A0 /* AccountInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D95A829DD8FD30092F8A0 /* AccountInfoVC.swift */,
+			);
+			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		BA6E59AC29F931DB005E6828 /* Screening */ = {
+			isa = PBXGroup;
+			children = (
+				BA84DBCC2A12066E00A73D3C /* UpdateJobStatus */,
+				BA6E59B329F933CA005E6828 /* XIB */,
+				BA14EB1F29F9354600CD5720 /* ScreeningRCVC.swift */,
+			);
+			path = Screening;
+			sourceTree = "<group>";
+		};
+		BA6E59B329F933CA005E6828 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EB1B29F9347900CD5720 /* ScreeningRCTableViewCell.swift */,
+				BA14EB1C29F9347900CD5720 /* ScreeningRCTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BA702E702A0E6FEF0000A324 /* TableXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA702E712A0E70070000A324 /* ApplicationAdvanceTableViewCell.swift */,
+				BA702E722A0E70070000A324 /* ApplicationAdvanceTableViewCell.xib */,
+			);
+			path = TableXIB;
+			sourceTree = "<group>";
+		};
+		BA7607942A1C7BD5001158E6 /* SavedJobList */ = {
+			isa = PBXGroup;
+			children = (
+				BA7607952A1C7BE5001158E6 /* MySavedJobList.swift */,
+				BA7607972A1C7BE5001158E6 /* MySavedJobListData.swift */,
+				BA7607962A1C7BE5001158E6 /* MySavedList_jobs.swift */,
+			);
+			path = SavedJobList;
+			sourceTree = "<group>";
+		};
+		BA772FCC2A0BA35D00EC3BE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA772FCE2A0BA36B00EC3BE3 /* BrowseJobs.swift */,
+				BA772FCD2A0BA36B00EC3BE3 /* BrowseJobsData.swift */,
+				BA772FCF2A0BA36B00EC3BE3 /* BrowsePopular_jobs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA7771DE29FAA2760087B65A /* CreatJobReques */ = {
+			isa = PBXGroup;
+			children = (
+				BAC625402A39911D0027B1C9 /* Model */,
+				BA7771DF29FAA2A40087B65A /* CreatJobRequestRCVC.swift */,
+				BA7771E129FAB18B0087B65A /* EditCreatJobRequestRCVC.swift */,
+			);
+			path = CreatJobReques;
+			sourceTree = "<group>";
+		};
+		BA7D953F29DD46E700BCD189 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				BA6676562A090F3E00732DCD /* Model */,
+				BA7D953D29DD46E000BCD189 /* LicensesVC.swift */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+		BA7D954029DD539600BCD189 /* Certification */ = {
+			isa = PBXGroup;
+			children = (
+				BA920CDD2A0A14A500F82CA3 /* Model */,
+				BA7D954129DD53AF00BCD189 /* CertificationVC.swift */,
+			);
+			path = Certification;
+			sourceTree = "<group>";
+		};
+		BA7FA31229EBBFF100B339B6 /* XIBTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FA31329EBC01A00B339B6 /* messageListTableViewCell.swift */,
+				BA7FA31429EBC01A00B339B6 /* messageListTableViewCell.xib */,
+			);
+			path = XIBTableView;
+			sourceTree = "<group>";
+		};
+		BA84DBCC2A12066E00A73D3C /* UpdateJobStatus */ = {
+			isa = PBXGroup;
+			children = (
+				BA78C1392A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.swift */,
+				BA78C13A2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.xib */,
+				BA84DBCD2A12069900A73D3C /* UpdateJobStatusViewController.swift */,
+			);
+			path = UpdateJobStatus;
+			sourceTree = "<group>";
+		};
+		BA86AF3D29F96F960044873E /* MoveToOffered */ = {
+			isa = PBXGroup;
+			children = (
+				BA86AF3E29F96FBF0044873E /* MoveToOfferedRCVC.swift */,
+			);
+			path = MoveToOffered;
+			sourceTree = "<group>";
+		};
+		BA86AF4029F978F40044873E /* OfferedEmploy */ = {
+			isa = PBXGroup;
+			children = (
+				BA86AF4129F9791D0044873E /* OfferedEmployeesRCVC.swift */,
+			);
+			path = OfferedEmploy;
+			sourceTree = "<group>";
+		};
+		BA8C1A192A308DB40006BCF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC49D822A31A08200EEE766 /* PopularJobList.swift */,
+				BAC49D832A31A08200EEE766 /* PopularJobListData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA920CDD2A0A14A500F82CA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA920CDF2A0A14AF00F82CA3 /* Certification.swift */,
+				BA920CDE2A0A14AF00F82CA3 /* CertificationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA96FD312A3B1FE200AEC7D6 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				BA566B8D2A3B2A6200C6FFC6 /* XIBCell */,
+				BA96FD322A3B1FFA00AEC7D6 /* NotificationsVC.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		BA9C2EE529E5675700BA3B0C /* HelpAndSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BA59CE732A375D3700E068BB /* Model */,
+				BA9C2EE629E5677700BA3B0C /* HelpAndSupportVC.swift */,
+			);
+			path = HelpAndSupport;
+			sourceTree = "<group>";
+		};
+		BAA27CDC29D1D1E300A80210 /* FontsTTF */ = {
+			isa = PBXGroup;
+			children = (
+				BA5035F629D2B9F500B496CB /* Poppins-Regular.ttf */,
+				BAA27CDD29D1D20200A80210 /* NeueKabel.ttf */,
+				BA636B6629D574CA001E6A94 /* NeueKabel-Italic.ttf */,
+				BABA532629D5AAFB004555F0 /* NeueKabelMediumItalic.ttf */,
+				BA4CC71B29D2F29900C3CD47 /* Poppins-SemiBold.ttf */,
+				BA90A20529D2C1D8002E6A22 /* NeueKabel-Bold.ttf */,
+				BA90A20329D2C10C002E6A22 /* NeueKabel-Medium.ttf */,
+				BA4531F229DAD3010048AD2C /* Quicksand-Bold.ttf */,
+				BA4531F329DAD3010048AD2C /* Quicksand-Light.ttf */,
+				BA4531F429DAD3010048AD2C /* Quicksand-Medium.ttf */,
+				BA4531F029DAD3010048AD2C /* Quicksand-Regular.ttf */,
+				BA4531F129DAD3010048AD2C /* Quicksand-SemiBold.ttf */,
+				BA57668D2A14B9DD00BA5770 /* DMSans-Medium.ttf */,
+				BA57668B2A14A9D400BA5770 /* DMSans-Regular.ttf */,
+			);
+			path = FontsTTF;
+			sourceTree = "<group>";
+		};
+		BAA551B82A0CBA2C0018A0CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D06022A272C9600217DCD /* PastJob */,
+				BA4D05FD2A271ABA00217DCD /* MyHiredJobs */,
+				BA7607942A1C7BD5001158E6 /* SavedJobList */,
+				BA4E98C92A0CD41200875075 /* MyAppliedJobList */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA5D05729F807F500BC922D /* MessageRCVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAA5D05829F8083000BC922D /* MessageRCVC.swift */,
+				BAA5D05A29F808F700BC922D /* ChatRCVC.swift */,
+			);
+			path = MessageRCVC;
+			sourceTree = "<group>";
+		};
+		BAA64F5B2A0B7726007F632B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F6B2A0B8BF3007F632B /* Shift */,
+				BAA64F662A0B860C007F632B /* JobType */,
+				BAA64F612A0B7C18007F632B /* WorkLocation */,
+				BAA64F602A0B77E8007F632B /* SpecialitiesModal */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA64F602A0B77E8007F632B /* SpecialitiesModal */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F5C2A0B7733007F632B /* NurseSpecialitiesData.swift */,
+				BAA64F5D2A0B7733007F632B /* NurseSpecialities.swift */,
+			);
+			path = SpecialitiesModal;
+			sourceTree = "<group>";
+		};
+		BAA64F612A0B7C18007F632B /* WorkLocation */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F632A0B7CC9007F632B /* NurseLocationData.swift */,
+				BAA64F622A0B7CC9007F632B /* NurseWorkLocation.swift */,
+			);
+			path = WorkLocation;
+			sourceTree = "<group>";
+		};
+		BAA64F662A0B860C007F632B /* JobType */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F682A0B86A8007F632B /* NurseJobTypes.swift */,
+				BAA64F672A0B86A8007F632B /* NurseJobTypesData.swift */,
+			);
+			path = JobType;
+			sourceTree = "<group>";
+		};
+		BAA64F6B2A0B8BF3007F632B /* Shift */ = {
+			isa = PBXGroup;
+			children = (
+				BAA64F6C2A0B8BFE007F632B /* NurseShifts.swift */,
+				BAA64F6D2A0B8BFE007F632B /* NurseShiftsData.swift */,
+			);
+			path = Shift;
+			sourceTree = "<group>";
+		};
+		BAAE113D29F7DDE400797857 /* NewApplications */ = {
+			isa = PBXGroup;
+			children = (
+				BA53C3FA2A1DFBDB00DDEF75 /* Model */,
+				BAAE114029F7E0C300797857 /* XIB */,
+				BAAE113E29F7DE5F00797857 /* NewApplicationsRCVC.swift */,
+			);
+			path = NewApplications;
+			sourceTree = "<group>";
+		};
+		BAAE114029F7E0C300797857 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BAAE114129F7E0F300797857 /* NewApplicationChatTableViewCell.swift */,
+				BAAE114229F7E0F300797857 /* NewApplicationChatTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BAAECF8329FB857A00C8ABDC /* EditJob */ = {
+			isa = PBXGroup;
+			children = (
+				BAAECF8429FB859C00C8ABDC /* EditJobRCVC.swift */,
+			);
+			path = EditJob;
+			sourceTree = "<group>";
+		};
+		BAAECF8629FB895F00C8ABDC /* HoldPublished */ = {
+			isa = PBXGroup;
+			children = (
+				BAAECF8729FB897D00C8ABDC /* HoldAndPublishedRCVC.swift */,
+			);
+			path = HoldPublished;
+			sourceTree = "<group>";
+		};
+		BAAECF8929FBAA1600C8ABDC /* NurseApplied */ = {
+			isa = PBXGroup;
+			children = (
+				BAAECF8A29FBAA6500C8ABDC /* NurseAppliedListRCVC.swift */,
+			);
+			path = NurseApplied;
+			sourceTree = "<group>";
+		};
+		BAB322132A0A2FAF00AABF95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAB322142A0A2FB900AABF95 /* ExperienceTypeList Data.swift */,
+				BAB322152A0A2FB900AABF95 /* ExperienceTypeList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAB5E5A629D1619000FFFF3D /* WorkerVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA96FD312A3B1FE200AEC7D6 /* Notifications */,
+				BA4BDAD929F175AF00B9C54F /* Filter */,
+				BA166E8229EAAEEF0087842E /* AppliedJobDetails */,
+				BA54425B29E8013200AF2747 /* BookMarked */,
+				BA5792D529E7DC170028F181 /* Explore */,
+				BA9C2EE529E5675700BA3B0C /* HelpAndSupport */,
+				BA6D95A729DD8FB80092F8A0 /* AccountInfo */,
+				BA6D959B29DD7D1A0092F8A0 /* Setting */,
+				BA13F04A29DD61C20024EA55 /* Education */,
+				BA13F04729DD5B3A0024EA55 /* Experience */,
+				BA7D954029DD539600BCD189 /* Certification */,
+				BA7D953F29DD46E700BCD189 /* Licenses */,
+				BAC0E45429DD311E00E8379C /* Resume */,
+				BA45320229DAEB2F0048AD2C /* PersonalInfo */,
+				BA2D6F7929DABA9400EF404A /* MyProfile */,
+				BA4667CB29D6F1DA00CAC442 /* ApplyJob */,
+				BABA532829D5AD37004555F0 /* JobDetailsVC */,
+				BAD51D3729D41191000A4845 /* Message */,
+				BAD51D2F29D4113D000A4845 /* Search */,
+				BAD51D2E29D4111F000A4845 /* Home */,
+				BA4DA71329D3FDBE000A061D /* TabBarVC */,
+				BA3E694129D16B660013816A /* OnboardVC */,
+				BA130B7D29D1584600496986 /* ViewController.swift */,
+				BA2D6F7729DAB51E00EF404A /* AppliedJobAlertVC.swift */,
+			);
+			path = WorkerVC;
+			sourceTree = "<group>";
+		};
+		BAB5E5A729D161A500FFFF3D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				BA130B7F29D1584600496986 /* Main.storyboard */,
+				BA130B8729D1584900496986 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		BABA532129D59B74004555F0 /* TableViewXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BABA532229D59B9E004555F0 /* RecommendedTableViewCell.swift */,
+				BABA532329D59B9E004555F0 /* RecommendedTableViewCell.xib */,
+				BA4D0BD52A444C0D004256E2 /* PopularJobTableViewCell.swift */,
+				BA4D0BD62A444C0D004256E2 /* PopularJobTableViewCell.xib */,
+			);
+			path = TableViewXIB;
+			sourceTree = "<group>";
+		};
+		BABA532829D5AD37004555F0 /* JobDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA55E1412A04ED1F000DD724 /* Model */,
+				BABA532929D5AD6F004555F0 /* JobDetailsVC.swift */,
+				BA4D0BD92A44770D004256E2 /* WorkDetailsVC.swift */,
+			);
+			path = JobDetailsVC;
+			sourceTree = "<group>";
+		};
+		BAC0E45429DD311E00E8379C /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0E45529DD314B00E8379C /* ResumeVC.swift */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		BAC625402A39911D0027B1C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC625412A3991290027B1C9 /* AssignMentDuration */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAC625412A3991290027B1C9 /* AssignMentDuration */ = {
+			isa = PBXGroup;
+			children = (
+				BAC625432A39913C0027B1C9 /* AssignmentDuration.swift */,
+				BAC625422A39913C0027B1C9 /* AssignmentDurationData.swift */,
+			);
+			path = AssignMentDuration;
+			sourceTree = "<group>";
+		};
+		BAC7BC1C2A177CC100D1501A /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7BC1E2A177DE000D1501A /* DateValueFormatter.swift */,
+				BAC7BC222A177DE100D1501A /* DayAxisValueFormatter.swift */,
+				BAC7BC1F2A177DE100D1501A /* DemoBaseViewController.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		BAD360982A39E7D4004256A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAD3609A2A39E7E9004256A1 /* Home.swift */,
+				BAD360992A39E7E9004256A1 /* HomeData.swift */,
+				BA4EC7F42A3C7BEE002921C7 /* HomeNotification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAD51D2E29D4111F000A4845 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA55E13A2A04D73A000DD724 /* NurseProfile_Model */,
+				BA5148852A022B8C00F99ACC /* Explore_Model */,
+				BABA532129D59B74004555F0 /* TableViewXIB */,
+				BA636B6129D5654A001E6A94 /* CollectionViewXIB */,
+				BA4DA71429D3FDD3000A061D /* HomeVC.swift */,
+				BAA6FEDA2A4427D200211A32 /* Demo.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BAD51D2F29D4113D000A4845 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BAD51D3029D41158000A4845 /* SearchVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BAD51D3729D41191000A4845 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BA47977D29ED08B9000B3BF7 /* ChatXIB */,
+				BA7FA31229EBBFF100B339B6 /* XIBTableView */,
+				BAD51D3429D41182000A4845 /* MessageVC.swift */,
+				BA47977B29ED0041000B3BF7 /* ChatVC.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BAD521F42A42DADB00C8F717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA263FF02A431C0200EE6F44 /* Published */,
+				BAD521F92A42DAF500C8F717 /* DraftApplication */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAD521F92A42DAF500C8F717 /* DraftApplication */ = {
+			isa = PBXGroup;
+			children = (
+				BAD521F62A42DAEE00C8F717 /* DraftApplication.swift */,
+				BAD521F52A42DAEE00C8F717 /* DraftApplicationData.swift */,
+			);
+			path = DraftApplication;
+			sourceTree = "<group>";
+		};
+		BAE7C1D529FBE49400E58701 /* FullDetailsNurse */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E254429FC0EC7008CF71A /* XIB */,
+				BAE7C1D629FBE4B400E58701 /* FullDetailsNurseRCVC.swift */,
+			);
+			path = FullDetailsNurse;
+			sourceTree = "<group>";
+		};
+		BAF5790429F688F80045D018 /* RecruitersStoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5790529F6892B0045D018 /* RecruitersStoryboard.storyboard */,
+			);
+			path = RecruitersStoryBoards;
+			sourceTree = "<group>";
+		};
+		BAF9A44429F1443D0069C0CE /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				BAF9A44529F1450B0069C0CE /* LogInDataModel.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA130B7529D1584600496986 /* GoodWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA130BA329D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWork" */;
+			buildPhases = (
+				BDE611A71C831F9EC38F95F9 /* [CP] Check Pods Manifest.lock */,
+				BA130B7229D1584600496986 /* Sources */,
+				BA130B7329D1584600496986 /* Frameworks */,
+				BA130B7429D1584600496986 /* Resources */,
+				289539093D6E44C95B21887A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodWork;
+			productName = GoodWork;
+			productReference = BA130B7629D1584600496986 /* GoodWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA130B8E29D1584900496986 /* GoodWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA130BA629D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWorkTests" */;
+			buildPhases = (
+				534438FED52B2B9894E11718 /* [CP] Check Pods Manifest.lock */,
+				BA130B8B29D1584900496986 /* Sources */,
+				BA130B8C29D1584900496986 /* Frameworks */,
+				BA130B8D29D1584900496986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA130B9129D1584900496986 /* PBXTargetDependency */,
+			);
+			name = GoodWorkTests;
+			productName = GoodWorkTests;
+			productReference = BA130B8F29D1584900496986 /* GoodWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA130B9829D1584900496986 /* GoodWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA130BA929D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWorkUITests" */;
+			buildPhases = (
+				5D8CD7D6830D5E8E9EC37F5C /* [CP] Check Pods Manifest.lock */,
+				BA130B9529D1584900496986 /* Sources */,
+				BA130B9629D1584900496986 /* Frameworks */,
+				BA130B9729D1584900496986 /* Resources */,
+				D915D53104D3FE32417B8159 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA130B9B29D1584900496986 /* PBXTargetDependency */,
+			);
+			name = GoodWorkUITests;
+			productName = GoodWorkUITests;
+			productReference = BA130B9929D1584900496986 /* GoodWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA130B6E29D1584600496986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA130B7529D1584600496986 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BA130B8E29D1584900496986 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA130B7529D1584600496986;
+					};
+					BA130B9829D1584900496986 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA130B7529D1584600496986;
+					};
+				};
+			};
+			buildConfigurationList = BA130B7129D1584600496986 /* Build configuration list for PBXProject "GoodWork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA130B6D29D1584600496986;
+			productRefGroup = BA130B7729D1584600496986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA130B7529D1584600496986 /* GoodWork */,
+				BA130B8E29D1584900496986 /* GoodWorkTests */,
+				BA130B9829D1584900496986 /* GoodWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA130B7429D1584600496986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA532729D5AAFB004555F0 /* NeueKabelMediumItalic.ttf in Resources */,
+				BA702E742A0E70070000A324 /* ApplicationAdvanceTableViewCell.xib in Resources */,
+				BA130B8929D1584900496986 /* LaunchScreen.storyboard in Resources */,
+				BAA27CDE29D1D20200A80210 /* NeueKabel.ttf in Resources */,
+				BA14EB1E29F9347900CD5720 /* ScreeningRCTableViewCell.xib in Resources */,
+				BA6BF91F29ED48F4008B2112 /* UserTableViewCell.xib in Resources */,
+				BA4FE8EF29F6B03B00E5C225 /* JobTypeCollectionViewCell.xib in Resources */,
+				BA636B6529D5659B001E6A94 /* PopularJobsCollectionCell.xib in Resources */,
+				BA57668C2A14A9D400BA5770 /* DMSans-Regular.ttf in Resources */,
+				BA63CEA129F9023D007AC136 /* JobAppliedTableViewCell.xib in Resources */,
+				BA47978129ED08D3000B3BF7 /* LoginUserTableViewCell.xib in Resources */,
+				BA4531F729DAD3010048AD2C /* Quicksand-Bold.ttf in Resources */,
+				BA4E254C29FC149A008CF71A /* CertListTableViewCell.xib in Resources */,
+				BA7FA31629EBC01A00B339B6 /* messageListTableViewCell.xib in Resources */,
+				BAAE114429F7E0F300797857 /* NewApplicationChatTableViewCell.xib in Resources */,
+				BA4531FD29DADCD60048AD2C /* ProfileInfoTableViewCell.xib in Resources */,
+				BA130B8629D1584900496986 /* Assets.xcassets in Resources */,
+				BA57668E2A14B9DE00BA5770 /* DMSans-Medium.ttf in Resources */,
+				BA57668A2A149FDC00BA5770 /* LatestNotiesTableViewCell.xib in Resources */,
+				BA45320129DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.xib in Resources */,
+				BA566B912A3B2AAC00C6FFC6 /* NotificationTableViewCell.xib in Resources */,
+				BA4531F629DAD3010048AD2C /* Quicksand-SemiBold.ttf in Resources */,
+				BA78C13C2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.xib in Resources */,
+				BA3393C629F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.xib in Resources */,
+				BA4531F829DAD3010048AD2C /* Quicksand-Light.ttf in Resources */,
+				BA90A20629D2C1D8002E6A22 /* NeueKabel-Bold.ttf in Resources */,
+				BABA532529D59B9F004555F0 /* RecommendedTableViewCell.xib in Resources */,
+				BA4531F929DAD3010048AD2C /* Quicksand-Medium.ttf in Resources */,
+				BA4531F529DAD3010048AD2C /* Quicksand-Regular.ttf in Resources */,
+				BA4D0BD82A444C0D004256E2 /* PopularJobTableViewCell.xib in Resources */,
+				BA625B1729FBCF2700F05B0E /* CertificationTableViewCell.xib in Resources */,
+				BA130B8129D1584600496986 /* Main.storyboard in Resources */,
+				BA4CC71C29D2F29900C3CD47 /* Poppins-SemiBold.ttf in Resources */,
+				BA636B6729D574CA001E6A94 /* NeueKabel-Italic.ttf in Resources */,
+				BA4973D729FA8F9E00FEACEC /* CreatedJobTableViewCell.xib in Resources */,
+				BAF5790629F6892B0045D018 /* RecruitersStoryboard.storyboard in Resources */,
+				BA5035F729D2B9F500B496CB /* Poppins-Regular.ttf in Resources */,
+				BA19F68029F290C7000B09B0 /* TagCollectionViewCell.xib in Resources */,
+				BA6D95A129DD7ECF0092F8A0 /* SettingsTableViewCell.xib in Resources */,
+				BA90A20429D2C10C002E6A22 /* NeueKabel-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B8D29D1584900496986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B9729D1584900496986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		289539093D6E44C95B21887A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodWork/Pods-GoodWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodWork/Pods-GoodWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodWork/Pods-GoodWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534438FED52B2B9894E11718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D8CD7D6830D5E8E9EC37F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWork-GoodWorkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE611A71C831F9EC38F95F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D915D53104D3FE32417B8159 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodWork-GoodWorkUITests/Pods-GoodWork-GoodWorkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodWork-GoodWorkUITests/Pods-GoodWork-GoodWorkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodWork-GoodWorkUITests/Pods-GoodWork-GoodWorkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA130B7229D1584600496986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA613FB22A1E1233006EE9E8 /* Role_interest11.swift in Sources */,
+				BAD521F82A42DAEF00C8F717 /* DraftApplication.swift in Sources */,
+				BAA5D05B29F808F700BC922D /* ChatRCVC.swift in Sources */,
+				BA86AF4229F9791E0044873E /* OfferedEmployeesRCVC.swift in Sources */,
+				BA5C9D5A29FA7B0E00D769CF /* CreatingJobPostRCVC.swift in Sources */,
+				BAC7BC262A177DE200D1501A /* DemoBaseViewController.swift in Sources */,
+				BA772FD22A0BA36B00EC3BE3 /* BrowsePopular_jobs.swift in Sources */,
+				BA4D06012A271ADD00217DCD /* MyHiredJobs.swift in Sources */,
+				BAC49D852A31A08200EEE766 /* PopularJobListData.swift in Sources */,
+				BAD51D3529D41182000A4845 /* MessageVC.swift in Sources */,
+				BA63CEA029F9023D007AC136 /* JobAppliedTableViewCell.swift in Sources */,
+				BABA532A29D5AD6F004555F0 /* JobDetailsVC.swift in Sources */,
+				BA6D95A029DD7ECF0092F8A0 /* SettingsTableViewCell.swift in Sources */,
+				BA4D06052A272CEC00217DCD /* PastJobs.swift in Sources */,
+				BAD3609C2A39E7EA004256A1 /* Home.swift in Sources */,
+				BA566B902A3B2AAC00C6FFC6 /* NotificationTableViewCell.swift in Sources */,
+				BA45320029DAE98D0048AD2C /* PersonalInfoDetailsTableViewCell.swift in Sources */,
+				BA4667CD29D6F20300CAC442 /* ApplyJobWithoutProfileUpdateVC.swift in Sources */,
+				BA96FD332A3B1FFA00AEC7D6 /* NotificationsVC.swift in Sources */,
+				BA5E43D829F6CE6D0005295E /* ProfileRCVC.swift in Sources */,
+				BA4EC7FA2A3CA0CD002921C7 /* ApplicantTypeList.swift in Sources */,
+				BA14EB2029F9354600CD5720 /* ScreeningRCVC.swift in Sources */,
+				BA50EB3029F954AB00E0CFFD /* MoveToSubmitRCVC.swift in Sources */,
+				BAA64F5F2A0B7734007F632B /* NurseSpecialities.swift in Sources */,
+				BA772FD12A0BA36B00EC3BE3 /* BrowseJobs.swift in Sources */,
+				BAD521F72A42DAEF00C8F717 /* DraftApplicationData.swift in Sources */,
+				BA84DBCE2A12069900A73D3C /* UpdateJobStatusViewController.swift in Sources */,
+				BA66E14E29FA384300AB4E7F /* WorkingRCVC.swift in Sources */,
+				BA0B8E6E29F6992700BA91AC /* TabBarRCVCViewController.swift in Sources */,
+				BA5E43DE29F6DE430005295E /* AccountInfoRCVC.swift in Sources */,
+				BA4EC7F52A3C7BEF002921C7 /* HomeNotification.swift in Sources */,
+				BA4F420129F7841A00EA87A4 /* PrivacyPolicyRCVC.swift in Sources */,
+				BA54882A2A3AE36400B7C945 /* AboutMeData.swift in Sources */,
+				BA76079A2A1C7BE5001158E6 /* MySavedJobListData.swift in Sources */,
+				BADDB6B229D3079F0031A063 /* SignUpVC.swift in Sources */,
+				BAA64F652A0B7CC9007F632B /* NurseLocationData.swift in Sources */,
+				BA6D95A429DD88460092F8A0 /* PrivacyPoliciesVC.swift in Sources */,
+				BA6D95A929DD8FD30092F8A0 /* AccountInfoVC.swift in Sources */,
+				BA3E694029D16B1C0013816A /* Design.swift in Sources */,
+				BAAE113F29F7DE5F00797857 /* NewApplicationsRCVC.swift in Sources */,
+				BA63CE9C29F8F33A007AC136 /* ApplicationDetailsRCVC.swift in Sources */,
+				BA4F41FE29F783E600EA87A4 /* AboutUSRCVC.swift in Sources */,
+				BA625B1029FBCD1400F05B0E /* NuseDetailsRCVC.swift in Sources */,
+				BA59CE772A375D8400E068BB /* SubjectTypesListData.swift in Sources */,
+				BAA64F642A0B7CC9007F632B /* NurseWorkLocation.swift in Sources */,
+				BAAECF8B29FBAA6500C8ABDC /* NurseAppliedListRCVC.swift in Sources */,
+				BA4D06002A271ADD00217DCD /* MyHiredJobsData.swift in Sources */,
+				BA4E254B29FC149A008CF71A /* CertListTableViewCell.swift in Sources */,
+				BABD91642A1B5A8D00F91B9F /* Json4Swift_Base.swift in Sources */,
+				BA3E693D29D16A6C0013816A /* ConstantString.swift in Sources */,
+				BAB1709D2A3730B800D98C4E /* Recommended_jobs.swift in Sources */,
+				BA59CE762A375D8400E068BB /* SubjectTypesList.swift in Sources */,
+				BAD3609B2A39E7E9004256A1 /* HomeData.swift in Sources */,
+				BA4531FC29DADCD60048AD2C /* ProfileInfoTableViewCell.swift in Sources */,
+				BA5E43DB29F6D5F30005295E /* EmployersRCVC.swift in Sources */,
+				BA702E732A0E70070000A324 /* ApplicationAdvanceTableViewCell.swift in Sources */,
+				BA625B1229FBCD6100F05B0E /* CertificationRCVC.swift in Sources */,
+				BA6C23A62A1CD1CF000D4A8B /* AccountInfo.swift in Sources */,
+				BABD91632A1B5A8D00F91B9F /* Data.swift in Sources */,
+				BA3E693B29D16A630013816A /* Constant.swift in Sources */,
+				BA3E693629D16A3C0013816A /* Extantion.swift in Sources */,
+				BAAD4D852A0D29F90014A48A /* NurseProfileData.swift in Sources */,
+				BAC49D842A31A08200EEE766 /* PopularJobList.swift in Sources */,
+				BAF9A44629F1450C0069C0CE /* LogInDataModel.swift in Sources */,
+				BA4FE8EE29F6B03B00E5C225 /* JobTypeCollectionViewCell.swift in Sources */,
+				BA4D0BD72A444C0D004256E2 /* PopularJobTableViewCell.swift in Sources */,
+				BA45320429DAEB510048AD2C /* PersonalInfomationVC.swift in Sources */,
+				BAB1709F2A3730C900D98C4E /* Recently_added.swift in Sources */,
+				BA4E98CE2A0CD42500875075 /* MyAppliedPopularJob.swift in Sources */,
+				BAA5D05929F8083000BC922D /* MessageRCVC.swift in Sources */,
+				BA7771E229FAB18B0087B65A /* EditCreatJobRequestRCVC.swift in Sources */,
+				BABD91652A1B5A8D00F91B9F /* Popular_jobs.swift in Sources */,
+				BAC0E45629DD314B00E8379C /* ResumeVC.swift in Sources */,
+				BA54882D2A3AED0100B7C945 /* Employers.swift in Sources */,
+				BA3E694329D16B8C0013816A /* LoginVC.swift in Sources */,
+				BA13F04929DD5B4E0024EA55 /* ExperienceVC.swift in Sources */,
+				BA3393C529F7B12F00D14761 /* ApplicationAdvanceCollectionViewCell.swift in Sources */,
+				BAA64F6F2A0B8BFE007F632B /* NurseShiftsData.swift in Sources */,
+				BAB322172A0A2FBA00AABF95 /* ExperienceTypeList.swift in Sources */,
+				BA7D954229DD53AF00BCD189 /* CertificationVC.swift in Sources */,
+				BAA64F692A0B86A9007F632B /* NurseJobTypesData.swift in Sources */,
+				BA0B8E6A29F6953300BA91AC /* SignUpRCVC.swift in Sources */,
+				BA4D06062A272CEC00217DCD /* PastJobsData.swift in Sources */,
+				BA4DA71529D3FDD3000A061D /* HomeVC.swift in Sources */,
+				BA55E1442A04ED86000DD724 /* JobDetailsData.swift in Sources */,
+				BA608B5B2A0E2A3800B9BC71 /* AboutMeRCVC.swift in Sources */,
+				BA19F68229F2915D000B09B0 /* TagFlowLayout.swift in Sources */,
+				BA4C5DCA29DABF2400485838 /* MyProfileVC.swift in Sources */,
+				BA50EB2D29F94BAA00E0CFFD /* SubmittedRCVC.swift in Sources */,
+				BAA64F6A2A0B86A9007F632B /* NurseJobTypes.swift in Sources */,
+				BA4AF81C29F68AD30047074A /* LoginRCVC.swift in Sources */,
+				BAC625442A39913C0027B1C9 /* AssignmentDurationData.swift in Sources */,
+				BA920CE12A0A14AF00F82CA3 /* Certification.swift in Sources */,
+				BA130B7E29D1584600496986 /* ViewController.swift in Sources */,
+				BA5488292A3AE36400B7C945 /* AboutMe.swift in Sources */,
+				BA0B8E6829F691BB00BA91AC /* VerificationRCVC.swift in Sources */,
+				BA7607982A1C7BE5001158E6 /* MySavedJobList.swift in Sources */,
+				BAB322162A0A2FBA00AABF95 /* ExperienceTypeList Data.swift in Sources */,
+				BA3E694529D16FAC0013816A /* OnboardingVC.swift in Sources */,
+				BA5792D729E7DC300028F181 /* ExploreVC.swift in Sources */,
+				BA54425D29E8015F00AF2747 /* BookMarkVC.swift in Sources */,
+				BA772FD02A0BA36B00EC3BE3 /* BrowseJobsData.swift in Sources */,
+				BA263FF42A431C1000EE6F44 /* PublishedListData.swift in Sources */,
+				BA6BF91E29ED48F4008B2112 /* UserTableViewCell.swift in Sources */,
+				BA613FB12A1E1233006EE9E8 /* Data11.swift in Sources */,
+				BA2E51F929D2D52000806764 /* VerificationVC.swift in Sources */,
+				BA19F67F29F290C7000B09B0 /* TagCollectionViewCell.swift in Sources */,
+				BAAD4D862A0D29F90014A48A /* NurseProfileSpecialty.swift in Sources */,
+				BAAD4D812A0D29F90014A48A /* NurseProfile.swift in Sources */,
+				BA2E51F729D2CF3900806764 /* BaseVC.swift in Sources */,
+				BA6D95A629DD8EB10092F8A0 /* AboutUS.swift in Sources */,
+				BA14EB2329F9424C00CD5720 /* NurseDetailsRCVC.swift in Sources */,
+				BA4BDADB29F175C900B9C54F /* FilterVC.swift in Sources */,
+				BA7FA31529EBC01A00B339B6 /* messageListTableViewCell.swift in Sources */,
+				BA4D0BDA2A44770D004256E2 /* WorkDetailsVC.swift in Sources */,
+				BA4973D629FA8F9E00FEACEC /* CreatedJobTableViewCell.swift in Sources */,
+				BA14EB1D29F9347900CD5720 /* ScreeningRCTableViewCell.swift in Sources */,
+				BA920CE02A0A14AF00F82CA3 /* CertificationData.swift in Sources */,
+				BA613FB42A1E1233006EE9E8 /* Specialty11.swift in Sources */,
+				BA55E1452A04ED86000DD724 /* JobDetails.swift in Sources */,
+				BA66765A2A09102700732DCD /* LicenseTypes.swift in Sources */,
+				BAAECF8529FB859C00C8ABDC /* EditJobRCVC.swift in Sources */,
+				BA47977C29ED0041000B3BF7 /* ChatVC.swift in Sources */,
+				BA130B8429D1584600496986 /* GoodWork.xcdatamodeld in Sources */,
+				BA66E14829FA2F7500AB4E7F /* OnBoardingRCVC.swift in Sources */,
+				BA13F04C29DD61DA0024EA55 /* EducationVC.swift in Sources */,
+				BAAECF8829FB897D00C8ABDC /* HoldAndPublishedRCVC.swift in Sources */,
+				BA66E15429FA436900AB4E7F /* MoveToDoneRCVC.swift in Sources */,
+				BA4EC7F92A3CA0CD002921C7 /* ApplicantTypeData.swift in Sources */,
+				BA78C13B2A1200CA00B69DB6 /* UpdateJobStatusTableViewCell.swift in Sources */,
+				BAF9A44829F145230069C0CE /* APIDataHandler.swift in Sources */,
+				BAAD4D842A0D29F90014A48A /* NurseProfiRoleinte.swift in Sources */,
+				BA66E14B29FA336B00AB4E7F /* OnboardingEmployeesRCVC.swift in Sources */,
+				BAC7BC292A177DE200D1501A /* DayAxisValueFormatter.swift in Sources */,
+				BA66E15A29FA5AD800AB4E7F /* RejectedRCVC.swift in Sources */,
+				BA3393C129F7A74300D14761 /* SearchRCVC.swift in Sources */,
+				BAE7C1D729FBE4B400E58701 /* FullDetailsNurseRCVC.swift in Sources */,
+				BA130B7A29D1584600496986 /* AppDelegate.swift in Sources */,
+				BA636B6429D5659B001E6A94 /* PopularJobsCollectionCell.swift in Sources */,
+				BA7771E029FAA2A40087B65A /* CreatJobRequestRCVC.swift in Sources */,
+				BA3393BE29F79AFA00D14761 /* HelpAndSupportRCVC.swift in Sources */,
+				BAAE114329F7E0F300797857 /* NewApplicationChatTableViewCell.swift in Sources */,
+				BA613FB32A1E1233006EE9E8 /* Json4Swift_Base11.swift in Sources */,
+				BA6C23A52A1CD1CF000D4A8B /* AccountInfoDataRC.swift in Sources */,
+				BA7D953E29DD46E000BCD189 /* LicensesVC.swift in Sources */,
+				BAA64F6E2A0B8BFE007F632B /* NurseShifts.swift in Sources */,
+				BA130B7C29D1584600496986 /* SceneDelegate.swift in Sources */,
+				BA625B1629FBCF2700F05B0E /* CertificationTableViewCell.swift in Sources */,
+				BA4E98CD2A0CD42500875075 /* MyAppliedJobList.swift in Sources */,
+				BA5766892A149FDC00BA5770 /* LatestNotiesTableViewCell.swift in Sources */,
+				BA5EE1DF2A092A1700FB6787 /* LicenseStatus.swift in Sources */,
+				BA2D6F7829DAB51E00EF404A /* AppliedJobAlertVC.swift in Sources */,
+				BA6676592A09102700732DCD /* LicenseTypesData.swift in Sources */,
+				BA47978029ED08D3000B3BF7 /* LoginUserTableViewCell.swift in Sources */,
+				BABA532429D59B9F004555F0 /* RecommendedTableViewCell.swift in Sources */,
+				BAC625452A39913C0027B1C9 /* AssignmentDuration.swift in Sources */,
+				BA5EE1DE2A092A1700FB6787 /* LicenseStatusData.swift in Sources */,
+				BA0B8E7129F69A7400BA91AC /* HomeRCVC.swift in Sources */,
+				BAA64F5E2A0B7734007F632B /* NurseSpecialitiesData.swift in Sources */,
+				BAC7BC252A177DE200D1501A /* DateValueFormatter.swift in Sources */,
+				BAA6FEDB2A4427D200211A32 /* Demo.swift in Sources */,
+				BAD51D2929D4045C000A4845 /* TabBarCV.swift in Sources */,
+				BA7607992A1C7BE5001158E6 /* MySavedList_jobs.swift in Sources */,
+				BA9C2EE729E5677700BA3B0C /* HelpAndSupportVC.swift in Sources */,
+				BA4667CF29D6FC9400CAC442 /* ApplyJobWithProfileVC.swift in Sources */,
+				BAAD4D822A0D29F90014A48A /* NurseProfiCertitficate.swift in Sources */,
+				BA4E98CF2A0CD42500875075 /* MyAppliedJobData.swift in Sources */,
+				BAD51D3129D41158000A4845 /* SearchVC.swift in Sources */,
+				BA66E15129FA38FC00AB4E7F /* WorkingEmployeesRCVC.swift in Sources */,
+				BAAD4D832A0D29F90014A48A /* NurseProfiExperience.swift in Sources */,
+				BA3E693129D169800013816A /* AppConstants.swift in Sources */,
+				BA6D959D29DD7D310092F8A0 /* SettingsVC.swift in Sources */,
+				BA66E15729FA446500AB4E7F /* DoneEmployeesRCVC.swift in Sources */,
+				BA166E8429EAAF2B0087842E /* AppliedJobDetailsVC.swift in Sources */,
+				BA263FF32A431C1000EE6F44 /* PublishedList.swift in Sources */,
+				BA86AF3F29F96FBF0044873E /* MoveToOfferedRCVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B8B29D1584900496986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA130B9429D1584900496986 /* GoodWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130B9529D1584900496986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA130BA029D1584900496986 /* GoodWorkUITestsLaunchTests.swift in Sources */,
+				BA130B9E29D1584900496986 /* GoodWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA130B9129D1584900496986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA130B7529D1584600496986 /* GoodWork */;
+			targetProxy = BA130B9029D1584900496986 /* PBXContainerItemProxy */;
+		};
+		BA130B9B29D1584900496986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA130B7529D1584600496986 /* GoodWork */;
+			targetProxy = BA130B9A29D1584900496986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA130B7F29D1584600496986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA130B8029D1584600496986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA130B8729D1584900496986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA130B8829D1584900496986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA130BA129D1584900496986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA130BA229D1584900496986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA130BA429D1584900496986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA3748003BE23FB210D6556 /* Pods-GoodWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3GG5MW5AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodWork/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Goodwork;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA130BA529D1584900496986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C9D27EF5879D9B573C7E07 /* Pods-GoodWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3GG5MW5AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodWork/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Goodwork;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA130BA729D1584900496986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B23FE3FD21885C3E7EA56A /* Pods-GoodWorkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H38RRH22MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoodWork";
+			};
+			name = Debug;
+		};
+		BA130BA829D1584900496986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EBD5895B8FD15376F7B003 /* Pods-GoodWorkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H38RRH22MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoodWork";
+			};
+			name = Release;
+		};
+		BA130BAA29D1584900496986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D8B7B3AA3EFDAF2B9E58D5 /* Pods-GoodWork-GoodWorkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H38RRH22MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodWork;
+			};
+			name = Debug;
+		};
+		BA130BAB29D1584900496986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D417169863BD5D69C8E168 /* Pods-GoodWork-GoodWorkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H38RRH22MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gaurav-Jani.GoodWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA130B7129D1584600496986 /* Build configuration list for PBXProject "GoodWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA130BA129D1584900496986 /* Debug */,
+				BA130BA229D1584900496986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA130BA329D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA130BA429D1584900496986 /* Debug */,
+				BA130BA529D1584900496986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA130BA629D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA130BA729D1584900496986 /* Debug */,
+				BA130BA829D1584900496986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA130BA929D1584900496986 /* Build configuration list for PBXNativeTarget "GoodWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA130BAA29D1584900496986 /* Debug */,
+				BA130BAB29D1584900496986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA130B8229D1584600496986 /* GoodWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA130B8329D1584600496986 /* GoodWork.xcdatamodel */,
+			);
+			currentVersion = BA130B8329D1584600496986 /* GoodWork.xcdatamodel */;
+			path = GoodWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA130B6E29D1584600496986 /* Project object */;
+}

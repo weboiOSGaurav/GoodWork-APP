@@ -1,0 +1,31 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "c56a458d535b817979d625135898025cd1f6ae5680750c0cb366500ee7111997"
+build_start_time: [1687425684, 135463953]
+build_end_time: [1687425685, 563568115]
+inputs:
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerColors.swift"
+  : [1679988274, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerHapticGenerator.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerPositionFrame.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/BannerStyle.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/BaseNotificationBanner.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/FloatingNotificationBanner.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/GrowingNotificationBanner.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBanner.swift"
+  : [1679987921, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBannerQueue.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/NotificationBannerUtilities.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/StatusBarNotificationBanner.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/String+heightForConstrainedWidth.swift"
+  : [1679987263, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/NotificationBannerSwift/NotificationBanner/Classes/UIWindow+orientation.swift"
+  : [1679987263, 0]

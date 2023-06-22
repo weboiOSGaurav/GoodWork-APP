@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "4d13ae1075dad760e39f4de0cb55fd4b0b5fa08b9fa62ffb8825ec77e0a72dfa"
+build_start_time: [1687425680, 622496128]
+build_end_time: [1687425681, 647665023]
+inputs:
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/KMPlaceholderTextView/KMPlaceholderTextView/KMPlaceholderTextView.swift"
+  : [1681208619, 231204509]

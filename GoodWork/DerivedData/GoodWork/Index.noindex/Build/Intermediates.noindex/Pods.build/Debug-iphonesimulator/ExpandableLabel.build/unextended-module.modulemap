@@ -1,0 +1,10 @@
+framework module ExpandableLabel {
+  umbrella header "ExpandableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ExpandableLabel.__Swift {
+  exclude header "ExpandableLabel-Swift.h"
+}

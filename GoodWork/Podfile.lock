@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - DropDown (2.3.13)
+  - ExpandableLabel (0.5.2)
+  - IQKeyboardManagerSwift (6.5.10)
+  - KMPlaceholderTextView (1.4.0)
+  - MarqueeLabel (4.0.5)
+  - NotificationBannerSwift (3.0.6):
+    - MarqueeLabel (~> 4.0.5)
+    - SnapKit (~> 5.0.1)
+  - RangeSeekSlider (1.8.0)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - SnapKit (5.0.1)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftLoader (1.0.0)
+  - SwiftyAttributes (5.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Charts
+  - DropDown
+  - ExpandableLabel
+  - IQKeyboardManagerSwift
+  - KMPlaceholderTextView (~> 1.4.0)
+  - NotificationBannerSwift (~> 3.0.0)
+  - RangeSeekSlider
+  - SDWebImage
+  - SwiftLoader
+  - SwiftyAttributes
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - DropDown
+    - ExpandableLabel
+    - IQKeyboardManagerSwift
+    - KMPlaceholderTextView
+    - MarqueeLabel
+    - NotificationBannerSwift
+    - RangeSeekSlider
+    - SDWebImage
+    - SnapKit
+    - SwiftAlgorithms
+    - SwiftLoader
+    - SwiftyAttributes
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  ExpandableLabel: c2fab6d27860c572d67134b30522a5917746171d
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  NotificationBannerSwift: 7021be2338f8f29cf424b0aca43da462bf9e2a1a
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftLoader: f12f3a6fb42576862a3a5eb80c7e59fc881b6982
+  SwiftyAttributes: 6d7386e90ac611b6acac8b59e38f34bfa4621c80
+
+PODFILE CHECKSUM: 26d3fc9ee759653793dd396ddf6ae34979955e69
+
+COCOAPODS: 1.11.3

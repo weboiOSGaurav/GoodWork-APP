@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f6fa3d5dbd01b0cad0ae2919b868503a32c87a1347c459f08fe89e52443f2596"
+build_start_time: [1687425678, 727290153]
+build_end_time: [1687425680, 270308971]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftLoader/src/SwiftLoader/SwiftLoader.swift": [1681988785, 857057094]

@@ -1,0 +1,115 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "920ec871ac70e492c89b9a968dfc93201dbb660264f955b5d37ed797feb4a16c"
+    },
+    {
+      "guid" : "920ec871ac70e492c89b9a968dfc93203aac302c71ce333e65b3e7fbad518950"
+    },
+    {
+      "guid" : "920ec871ac70e492c89b9a968dfc932012da43a91e197a6320d3d605de9b0fc8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421130daa4894db4a9220537a0c61d4fd9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427c6f49b3c7cc50a262bd2c11a0cdfca5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b260753bcfed12b387794bb937d808c8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4228bd70b0b0d1109c196ff20e8cca3828"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c46180aea4e87057640961e6db37df0d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421bfd27bdb7c79e5ee2f18287640c01e6"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd425478f923c93d634a685cd0b6e4ac1ca1"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421083aaa8e980dfe2bf65f447153c9170"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42fedb250d2e6ae74ab61ac102c0c2aa1a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421fcf7b440dfce8eecd8637b7e3f4c73e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4220b5f1ce154855de08f0352a2fefcd21"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cfd1d6394655aeacac5a016961d542f7"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421872ba7c773ecf9365d0b24ebf810111"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4282a15c14e8df7f9a6124fc78efc18b00"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd428229c1c9f34494f5e450cfadbfc94cc4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ec1e5d51cce0dda6dc3122e5391d9b39"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ba3679b4c4428e6a6d83c5308d3af99b"
+    }
+  ],
+  "containerPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/GoodWork.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/DerivedData/GoodWork/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

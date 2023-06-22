@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "53b44294336d51ab46f790278c6a366d7e76b6fd8b847cdfc1f402dc6669e8c6"
+build_start_time: [1687436314, 713646888]
+build_end_time: [1687436317, 358050823]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/AFError.swift": [1681983201, 596240282]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Alamofire.swift": [1681983201, 599113464]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1681983201, 593203067]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/MultipartFormData.swift": [1681983201, 591211318]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1681983201, 591915369]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Notifications.swift": [1681983201, 597908973]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/ParameterEncoding.swift": [1681983201, 594955921]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Request.swift": [1681983201, 599607467]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Response.swift": [1681983201, 598642587]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/ResponseSerialization.swift": [1681983201, 600762128]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Result.swift": [1681983201, 593981266]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1681983201, 601316928]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/SessionDelegate.swift": [1681983201, 601811885]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/SessionManager.swift": [1681983201, 600131034]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/TaskDelegate.swift": [1681983201, 590300798]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Timeline.swift": [1681983201, 592602729]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Alamofire/Source/Validation.swift": [1681983201, 597106456]

@@ -1,0 +1,28 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "c707dd30e8ab689d85b1159a928ea095f8fb08afe0df4bd2d5b5de4b2c3fef9f"
+build_start_time: [1687425678, 728613853]
+build_end_time: [1687425680, 440713882]
+inputs:
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/Attribute+Sequence.swift"
+  : [1679922443, 0]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/Attribute.swift": [1679922443, 0]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/Ligatures.swift": [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/NSAttributedString+SwiftyAttributes.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/NSMutableAttributedString+SwiftyAttributes.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/NSString+SwiftyAttributes.swift"
+  : [1679922443, 0]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/Operators.swift": [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/String+SwiftyAttributes.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/SwiftyAttributedStringBuilder.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/TextEffect.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/VerticalGlyphForm.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/common/WritingDirection.swift"
+  : [1679922443, 0]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/SwiftyAttributes/SwiftyAttributes/Sources/iOS_tvOS/UIKit+SwiftyAttributes.swift"
+  : [1679922443, 0]

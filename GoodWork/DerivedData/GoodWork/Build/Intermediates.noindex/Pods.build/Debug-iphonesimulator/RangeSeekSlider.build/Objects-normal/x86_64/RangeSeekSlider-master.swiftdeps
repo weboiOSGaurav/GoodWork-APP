@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "6795bafca89aeb0800fea1c83df6adf253c92c054703cc7019e74f32246e8f51"
+build_start_time: [1687438208, 540018]
+build_end_time: [1687438209, 458890914]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/RangeSeekSlider/Sources/RangeSeekSlider.swift": [1687155034, 753176212]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/RangeSeekSlider/Sources/RangeSeekSliderDelegate.swift": [1687155034, 752759456]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/RangeSeekSlider/Sources/TapticEngine.swift": [1687155034, 753514289]

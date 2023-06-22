@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "44b4cc5cfea95ecfe6ef2b253e5a389bf5f48acf575c3120d80af46de64c3a99"
+build_start_time: [1687425683, 40397167]
+build_end_time: [1687425683, 771574974]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/ExpandableLabel/Classes/ExpandableLabel.swift": [1680250560, 960800170]

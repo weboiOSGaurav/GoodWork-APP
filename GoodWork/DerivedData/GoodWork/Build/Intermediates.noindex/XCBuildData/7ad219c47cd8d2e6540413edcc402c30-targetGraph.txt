@@ -1,0 +1,49 @@
+Target dependency graph (16 targets)
+Alamofire in Pods, no dependencies
+SwiftAlgorithms in Pods, no dependencies
+Charts in Pods, depends on:
+SwiftAlgorithms in Pods (explicit)
+DropDown in Pods, no dependencies
+ExpandableLabel in Pods, no dependencies
+IQKeyboardManagerSwift in Pods, no dependencies
+KMPlaceholderTextView in Pods, no dependencies
+MarqueeLabel in Pods, no dependencies
+SnapKit in Pods, no dependencies
+NotificationBannerSwift in Pods, depends on:
+MarqueeLabel in Pods (explicit)
+SnapKit in Pods (explicit)
+RangeSeekSlider in Pods, no dependencies
+SDWebImage in Pods, no dependencies
+SwiftLoader in Pods, no dependencies
+SwiftyAttributes in Pods, no dependencies
+Pods-GoodWork in Pods, depends on:
+Alamofire in Pods (explicit)
+Charts in Pods (explicit)
+DropDown in Pods (explicit)
+ExpandableLabel in Pods (explicit)
+IQKeyboardManagerSwift in Pods (explicit)
+KMPlaceholderTextView in Pods (explicit)
+MarqueeLabel in Pods (explicit)
+NotificationBannerSwift in Pods (explicit)
+RangeSeekSlider in Pods (explicit)
+SDWebImage in Pods (explicit)
+SnapKit in Pods (explicit)
+SwiftAlgorithms in Pods (explicit)
+SwiftLoader in Pods (explicit)
+SwiftyAttributes in Pods (explicit)
+GoodWork in GoodWork, depends on:
+Pods-GoodWork in Pods (implicit dependency via file 'Pods_GoodWork.framework' in build phase 'Link Binary')
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS')
+SwiftAlgorithms in Pods (implicit dependency via options '-framework Algorithms' in build setting 'OTHER_LDFLAGS')
+Charts in Pods (implicit dependency via options '-framework Charts' in build setting 'OTHER_LDFLAGS')
+DropDown in Pods (implicit dependency via options '-framework DropDown' in build setting 'OTHER_LDFLAGS')
+ExpandableLabel in Pods (implicit dependency via options '-framework ExpandableLabel' in build setting 'OTHER_LDFLAGS')
+IQKeyboardManagerSwift in Pods (implicit dependency via options '-framework IQKeyboardManagerSwift' in build setting 'OTHER_LDFLAGS')
+KMPlaceholderTextView in Pods (implicit dependency via options '-framework KMPlaceholderTextView' in build setting 'OTHER_LDFLAGS')
+MarqueeLabel in Pods (implicit dependency via options '-framework MarqueeLabel' in build setting 'OTHER_LDFLAGS')
+NotificationBannerSwift in Pods (implicit dependency via options '-framework NotificationBannerSwift' in build setting 'OTHER_LDFLAGS')
+RangeSeekSlider in Pods (implicit dependency via options '-framework RangeSeekSlider' in build setting 'OTHER_LDFLAGS')
+SDWebImage in Pods (implicit dependency via options '-framework SDWebImage' in build setting 'OTHER_LDFLAGS')
+SnapKit in Pods (implicit dependency via options '-framework SnapKit' in build setting 'OTHER_LDFLAGS')
+SwiftLoader in Pods (implicit dependency via options '-framework SwiftLoader' in build setting 'OTHER_LDFLAGS')
+SwiftyAttributes in Pods (implicit dependency via options '-framework SwiftyAttributes' in build setting 'OTHER_LDFLAGS')

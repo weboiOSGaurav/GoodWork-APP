@@ -1,0 +1,192 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5dda8dfc589315bfd287c2190b570bd538ddec8ddf2996b83c2469c1e0b4846e"
+build_start_time: [1687427157, 351518154]
+build_end_time: [1687427183, 301326990]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Animation/Animator.swift": [1684489687, 888698339]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Animation/ChartAnimationEasing.swift": [1684489687, 887991428]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/BarChartView.swift": [1684489687, 885437011]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/BarLineChartViewBase.swift": [1684489687, 880180835]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/BubbleChartView.swift": [1684489687, 884073972]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/CandleStickChartView.swift": [1684489687, 878681182]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/ChartViewBase.swift": [1684489687, 883414030]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/CombinedChartView.swift": [1684489687, 881817340]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/HorizontalBarChartView.swift": [1684489687, 882623195]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/LineChartView.swift": [1684489687, 881041526]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/PieChartView.swift": [1684489687, 886857032]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/PieRadarChartViewBase.swift": [1684489687, 884788513]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/RadarChartView.swift": [1684489687, 879474639]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Charts/ScatterChartView.swift": [1684489687, 886146783]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/AxisBase.swift": [1684489687, 905745029]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/ChartLimitLine.swift": [1684489687, 906918525]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/ComponentBase.swift": [1684489687, 908624172]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/Description.swift": [1684489687, 901967763]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/Legend.swift": [1684489687, 903432846]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/LegendEntry.swift": [1684489687, 904403209]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/Marker.swift": [1684489687, 908089160]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/MarkerImage.swift": [1684489687, 902782440]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/MarkerView.swift": [1684489687, 907517433]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/XAxis.swift": [1684489687, 906357288]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Components/YAxis.swift": [1684489687, 905090808]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/ChartBaseDataSet.swift": [1684489687, 937294483]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift"
+  : [1684489687, 936071872]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift"
+  : [1684489687, 915557861]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift"
+  : [1684489687, 916245937]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift"
+  : [1684489687, 923913478]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartDataSet.swift"
+  : [1684489687, 917785882]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartData.swift"
+  : [1684489687, 929159641]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift"
+  : [1684489687, 924619197]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataSet.swift"
+  : [1684489687, 934777736]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartData.swift"
+  : [1684489687, 933218955]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift"
+  : [1684489687, 919522762]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift"
+  : [1684489687, 922118186]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartData.swift"
+  : [1684489687, 914639949]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntry.swift"
+  : [1684489687, 926147222]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntryBase.swift"
+  : [1684489687, 925297737]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataSet.swift"
+  : [1684489687, 930287122]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/CombinedChartData.swift"
+  : [1684489687, 920184612]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineChartData.swift"
+  : [1684489687, 920878410]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift"
+  : [1684489687, 934085845]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift"
+  : [1684489687, 922877550]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift"
+  : [1684489687, 936696529]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartData.swift"
+  : [1684489687, 932574272]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift"
+  : [1684489687, 918789863]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift"
+  : [1684489687, 928381443]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartData.swift"
+  : [1684489687, 921506166]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift"
+  : [1684489687, 917048454]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift"
+  : [1684489687, 935357570]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartData.swift"
+  : [1684489687, 931827068]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift"
+  : [1684489687, 931023359]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/BarChartDataSetProtocol.swift"
+  : [1684489687, 938853740]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/BarLineScatterCandleBubbleChartDataSetProtocol.swift"
+  : [1684489687, 941418170]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/BubbleChartDataSetProtocol.swift"
+  : [1684489687, 939836978]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/CandleChartDataSetProtocol.swift"
+  : [1684489687, 940888881]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/ChartDataSetProtocol.swift": [1684489687, 942044258]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/LineChartDataSetProtocol.swift"
+  : [1684489687, 940421581]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/LineRadarChartDataSetProtocol.swift"
+  : [1684489687, 939297199]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/LineScatterCandleRadarChartDataSetProtocol.swift"
+  : [1684489687, 942528486]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/PieChartDataSetProtocol.swift"
+  : [1684489687, 938373565]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/RadarChartDataSetProtocol.swift"
+  : [1684489687, 943493366]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Data/Interfaces/ScatterChartDataSetProtocol.swift"
+  : [1684489687, 942976474]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Filters/DataApproximator+N.swift": [1684489687, 850016593]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Filters/DataApproximator.swift": [1684489687, 849042415]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/AxisValueFormatter.swift": [1684489687, 890123128]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/DefaultAxisValueFormatter.swift": [1684489687, 891276836]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/DefaultFillFormatter.swift": [1684489687, 889614582]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/DefaultValueFormatter.swift": [1684489687, 890723705]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/FillFormatter.swift": [1684489687, 892924785]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/IndexAxisValueFormatter.swift": [1684489687, 892307758]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Formatters/ValueFormatter.swift": [1684489687, 891810178]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/BarHighlighter.swift": [1684489687, 871708393]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/ChartHighlighter.swift": [1684489687, 876307010]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/CombinedHighlighter.swift": [1684489687, 876874208]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/Highlight.swift": [1684489687, 873070001]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/Highlighter.swift": [1684489687, 877478599]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/HorizontalBarHighlighter.swift": [1684489687, 874484539]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/PieHighlighter.swift": [1684489687, 873801708]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/PieRadarHighlighter.swift": [1684489687, 875068187]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/RadarHighlighter.swift": [1684489687, 872334957]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Highlight/Range.swift": [1684489687, 875715255]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/BarChartDataProvider.swift": [1684489687, 944155693]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift"
+  : [1684489687, 947046995]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/BubbleChartDataProvider.swift": [1684489687, 948314189]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/CandleChartDataProvider.swift": [1684489687, 945315122]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/ChartDataProvider.swift": [1684489687, 944716930]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/CombinedChartDataProvider.swift": [1684489687, 945863246]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/LineChartDataProvider.swift": [1684489687, 946460247]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Interfaces/ScatterChartDataProvider.swift": [1684489687, 947711467]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/AnimatedMoveViewJob.swift": [1684489687, 913154602]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/AnimatedViewPortJob.swift": [1684489687, 912616729]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/AnimatedZoomViewJob.swift": [1684489687, 909702777]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/MoveViewJob.swift": [1684489687, 911171913]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/ViewPortJob.swift": [1684489687, 910445690]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Jobs/ZoomViewJob.swift": [1684489687, 911966323]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/AxisRenderer.swift": [1684489687, 867883682]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/BarChartRenderer.swift": [1684495144, 63724279]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/BarLineScatterCandleBubbleRenderer.swift"
+  : [1684489687, 859447479]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/BubbleChartRenderer.swift": [1684489687, 853705883]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/CandleStickChartRenderer.swift": [1684495433, 466366291]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/CombinedChartRenderer.swift": [1684489687, 856269359]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/DataRenderer.swift": [1684489687, 868410587]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/HorizontalBarChartRenderer.swift": [1684489687, 866766929]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/LegendRenderer.swift": [1684495433, 438531398]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/LineChartRenderer.swift": [1684495433, 409987688]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/LineRadarRenderer.swift": [1684489687, 858808994]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift"
+  : [1684489687, 870877265]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/PieChartRenderer.swift": [1684489687, 869631767]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/RadarChartRenderer.swift": [1684495433, 384462118]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Renderer.swift": [1684489687, 870307445]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift"
+  : [1684489687, 862908840]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/ChevronUpShapeRenderer.swift"
+  : [1684489687, 865472793]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/CircleShapeRenderer.swift": [1684489687, 863729476]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift": [1684489687, 864290714]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/ShapeRenderer.swift": [1684489687, 862210750]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift": [1684489687, 861367940]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/TriangleShapeRenderer.swift"
+  : [1684489687, 864879131]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/Scatter/XShapeRenderer.swift": [1684489687, 860783576]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/ScatterChartRenderer.swift": [1684495433, 112883567]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/XAxisRenderer.swift": [1684495433, 73240280]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift"
+  : [1684495433, 37909984]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/XAxisRendererRadarChart.swift": [1684489687, 867355823]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/YAxisRenderer.swift": [1684495433, 8025407]
+  ? "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/YAxisRendererHorizontalBarChart.swift"
+  : [1684495432, 962520122]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Renderers/YAxisRendererRadarChart.swift": [1684495432, 915606021]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/ChartColorTemplates.swift": [1684489687, 898721694]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/ChartUtils.swift": [1684489687, 900699138]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Fill.swift": [1684489687, 893809318]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform+Accessibility.swift": [1684489687, 897617816]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform+Color.swift": [1684489687, 899975538]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform+Gestures.swift": [1684489687, 896004438]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform+Graphics.swift": [1684489687, 897146463]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform+Touch Handling.swift": [1684489687, 894923210]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Platform.swift": [1684489687, 898209333]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Sequence+KeyPath.swift": [1684489687, 896639347]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/Transformer.swift": [1684489687, 894320964]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/TransformerHorizontalBarChart.swift": [1684489687, 899377346]
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/Charts/Source/Charts/Utils/ViewPortHandler.swift": [1684489687, 895452976]

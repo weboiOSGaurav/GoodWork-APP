@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "9482f28fa535226fa57e7ce0e56089679166915519ce6cc2b30873339b751d83"
+build_start_time: [1687436317, 21955966]
+build_end_time: [1687436317, 640972137]
+inputs:
+  "/Users/gauravjani/Desktop/WebOConnect/GoodWorkApp/GoodWork/Pods/MarqueeLabel/Sources/MarqueeLabel.swift": [1679987193, 0]

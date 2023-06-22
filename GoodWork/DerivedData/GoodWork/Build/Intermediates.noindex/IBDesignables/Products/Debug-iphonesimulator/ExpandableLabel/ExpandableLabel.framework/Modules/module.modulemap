@@ -1,0 +1,11 @@
+framework module ExpandableLabel {
+  umbrella header "ExpandableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ExpandableLabel.Swift {
+  header "ExpandableLabel-Swift.h"
+  requires objc
+}

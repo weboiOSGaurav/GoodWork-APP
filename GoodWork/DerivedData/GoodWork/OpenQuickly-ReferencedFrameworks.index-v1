@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Cocoa</string>
+	<string>RangeSeekSlider</string>
+	<string>AVFoundation</string>
+	<string>CommonCrypto</string>
+	<string>SwiftLoader</string>
+	<string>ImageIO</string>
+	<string>objc</string>
+	<string>MarqueeLabel</string>
+	<string>CoreData</string>
+	<string>SnapKit</string>
+	<string>Accelerate</string>
+	<string>MobileCoreServices</string>
+	<string>sys</string>
+	<string>CoreImage</string>
+	<string>CoreServices</string>
+	<string>Charts</string>
+	<string>SDWebImage</string>
+	<string>libkern</string>
+	<string>Algorithms</string>
+	<string>GoodWork</string>
+	<string>XCTest</string>
+	<string>Dispatch</string>
+	<string>WatchKit</string>
+	<string>Foundation</string>
+	<string>mach</string>
+	<string>QuartzCore</string>
+	<string>DropDown</string>
+	<string>AppKit</string>
+	<string>Alamofire</string>
+	<string>os</string>
+	<string>ExpandableLabel</string>
+	<string>CoreVideo</string>
+	<string>SwiftyAttributes</string>
+	<string>KMPlaceholderTextView</string>
+	<string>IQKeyboardManagerSwift</string>
+	<string>SystemConfiguration</string>
+	<string>CoreGraphics</string>
+	<string>Quartz</string>
+	<string>NotificationBannerSwift</string>
+	<string>UIKit</string>
+</array>
+</plist>
